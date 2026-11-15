@@ -1,0 +1,1 @@
+ALTER TABLE "resultats" ADD COLUMN "revue" BOOLEAN NOT NULL DEFAULT false;

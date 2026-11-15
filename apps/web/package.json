@@ -1,0 +1,27 @@
+{
+  "name": "@education-togo/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "pnpm --filter @education-togo/shared build",
+    "dev": "next dev --port 3000",
+    "prebuild": "pnpm --filter @education-togo/shared build",
+    "build": "next build",
+    "start": "next start --port 3000"
+  },
+  "dependencies": {
+    "@education-togo/shared": "workspace:*",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.2",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.2"
+  }
+}

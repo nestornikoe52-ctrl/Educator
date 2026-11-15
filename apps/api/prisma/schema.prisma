@@ -1,0 +1,153 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum TypeExercice {
+  ouverte
+  qcm
+  trivia
+
+  @@map("type_exercice")
+}
+
+enum TypeSession {
+  exercices
+  qcm
+  trivia
+
+  @@map("type_session")
+}
+
+enum RoleUtilisateur {
+  eleve
+  professeur
+
+  @@map("role_utilisateur")
+}
+
+model Niveau {
+  id        String        @id @default(uuid()) @db.Uuid
+  code      String        @unique
+  libelle   String
+  ordre     Int           @unique
+  chapitres Chapitre[]
+  eleves    Utilisateur[] @relation("ClasseEleve")
+
+  @@map("niveaux")
+}
+
+model Matiere {
+  id        String          @id @default(uuid()) @db.Uuid
+  code      String          @unique
+  nom       String
+  chapitres Chapitre[]
+  suiviePar MatiereSuivie[]
+
+  @@map("matieres")
+}
+
+model Utilisateur {
+  id             String          @id @default(uuid()) @db.Uuid
+  nom            String
+  email          String          @unique
+  motDePasseHash String          @map("mot_de_passe_hash")
+  role           RoleUtilisateur @default(eleve)
+  niveauId       String?         @map("niveau_id") @db.Uuid
+  classe         Niveau?         @relation("ClasseEleve", fields: [niveauId], references: [id])
+  matieres       MatiereSuivie[]
+  sessions       Session[]
+  resultats      Resultat[]
+  createdAt      DateTime        @default(now()) @map("created_at")
+  updatedAt      DateTime        @updatedAt @map("updated_at")
+
+  @@map("utilisateurs")
+}
+
+model MatiereSuivie {
+  utilisateurId String      @map("utilisateur_id") @db.Uuid
+  matiereId     String      @map("matiere_id") @db.Uuid
+  utilisateur   Utilisateur @relation(fields: [utilisateurId], references: [id], onDelete: Cascade)
+  matiere       Matiere     @relation(fields: [matiereId], references: [id], onDelete: Cascade)
+
+  @@id([utilisateurId, matiereId])
+  @@map("matieres_suivies")
+}
+
+model Chapitre {
+  id          String     @id @default(uuid()) @db.Uuid
+  titre       String
+  ordre       Int
+  resumeCours String     @default("") @map("resume_cours") @db.Text
+  niveauId    String     @map("niveau_id") @db.Uuid
+  matiereId   String     @map("matiere_id") @db.Uuid
+  niveau      Niveau     @relation(fields: [niveauId], references: [id])
+  matiere     Matiere    @relation(fields: [matiereId], references: [id])
+  exercices   Exercice[]
+  sessions    Session[]
+  createdAt   DateTime   @default(now()) @map("created_at")
+  updatedAt   DateTime   @updatedAt @map("updated_at")
+
+  @@unique([niveauId, matiereId, ordre])
+  @@index([niveauId, matiereId])
+  @@map("chapitres")
+}
+
+model Exercice {
+  id             String       @id @default(uuid()) @db.Uuid
+  chapitreId     String       @map("chapitre_id") @db.Uuid
+  chapitre       Chapitre     @relation(fields: [chapitreId], references: [id], onDelete: Cascade)
+  ordre          Int
+  question       String       @db.Text
+  type           TypeExercice
+  choixPossibles String[]     @default([]) @map("choix_possibles")
+  bonneReponse   String       @map("bonne_reponse") @db.Text
+  explication    String?      @db.Text
+  dureeSecondes  Int?         @map("duree_secondes")
+  resultats      Resultat[]
+
+  @@unique([chapitreId, ordre])
+  @@index([chapitreId, type])
+  @@map("exercices")
+}
+
+model Session {
+  id          String      @id @default(uuid()) @db.Uuid
+  userId      String      @map("user_id") @db.Uuid
+  chapitreId  String      @map("chapitre_id") @db.Uuid
+  utilisateur Utilisateur @relation(fields: [userId], references: [id], onDelete: Cascade)
+  chapitre    Chapitre    @relation(fields: [chapitreId], references: [id], onDelete: Cascade)
+  type        TypeSession
+  score       Int         @default(0)
+  total       Int         @default(0)
+  debut       DateTime    @default(now())
+  fin         DateTime?
+  cleClient   String?     @unique @map("cle_client") @db.Uuid
+  resultats   Resultat[]
+
+  @@index([userId, chapitreId])
+  @@map("sessions")
+}
+
+model Resultat {
+  id            String      @id @default(uuid()) @db.Uuid
+  userId        String      @map("user_id") @db.Uuid
+  exerciceId    String      @map("exercice_id") @db.Uuid
+  sessionId     String?     @map("session_id") @db.Uuid
+  utilisateur   Utilisateur @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exercice      Exercice    @relation(fields: [exerciceId], references: [id], onDelete: Cascade)
+  session       Session?    @relation(fields: [sessionId], references: [id], onDelete: SetNull)
+  reponseDonnee String      @map("reponse_donnee") @db.Text
+  correct       Boolean
+  revue         Boolean     @default(false)
+  feedback      String?     @db.Text
+  date          DateTime    @default(now())
+
+  @@index([userId, exerciceId])
+  @@index([sessionId])
+  @@map("resultats")
+}

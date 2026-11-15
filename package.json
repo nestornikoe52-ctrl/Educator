@@ -1,0 +1,20 @@
+{
+  "name": "education-togo",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.15.1",
+  "engines": {
+    "node": ">=20"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["@embedded-postgres/windows-x64"]
+  },
+  "scripts": {
+    "build:shared": "pnpm --filter @education-togo/shared build",
+    "dev:api": "pnpm --filter @education-togo/api dev",
+    "dev:web": "pnpm --filter @education-togo/web dev",
+    "dev:mobile": "pnpm --filter @education-togo/mobile start",
+    "db:up": "pnpm --filter @education-togo/api db:up",
+    "build": "pnpm --filter @education-togo/shared build && pnpm --filter @education-togo/api build && pnpm --filter @education-togo/web build"
+  }
+}
