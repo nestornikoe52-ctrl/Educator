@@ -3,7 +3,7 @@
 import type { CorrectionExercice, PartieExercices } from "@education-togo/shared";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { commencerExercices, repondreExercice, terminerExercices } from "@/lib/api";
+import { ServeurInjoignable, commencerExercices, repondreExercice, terminerExercices } from "@/lib/api";
 import { exercicesIntegres } from "@/lib/contenuLocal";
 import { lireJeton } from "@/lib/session";
 
@@ -61,7 +61,13 @@ export function ExercicesJeu({ chapitreId }: { chapitreId: string }) {
       setPartie(await commencerExercices(chapitreId, jeton));
     } catch (error: unknown) {
       if (!demarrerIci()) {
-        setErreur(error instanceof Error ? error.message : "Les exercices n’ont pas pu démarrer.");
+        setErreur(
+          error instanceof ServeurInjoignable
+            ? "Ce chapitre n’a pas encore d’exercices sur cette page."
+            : error instanceof Error
+              ? error.message
+              : "Les exercices n’ont pas pu démarrer.",
+        );
       }
     }
   }
@@ -88,7 +94,7 @@ export function ExercicesJeu({ chapitreId }: { chapitreId: string }) {
     try {
       setCorrection(await repondreExercice(partie.sessionId, question.id, texte, jeton));
     } catch (error: unknown) {
-      setErreur(error instanceof Error ? error.message : "La réponse n’a pas été enregistrée.");
+      setErreur(error instanceof ServeurInjoignable || !(error instanceof Error) ? "La réponse n’a pas été enregistrée." : error.message);
     } finally {
       setEnvoi(false);
     }

@@ -2,7 +2,8 @@
 
 import { MATIERES, NIVEAUX, type MatiereCode, type NiveauCode } from "@education-togo/shared";
 import { useState } from "react";
-import { connecter, inscrire } from "@/lib/api";
+import { ServeurInjoignable, connecter, inscrire } from "@/lib/api";
+import { connecterLocal, inscrireLocal } from "@/lib/comptesLocaux";
 import { ecrireJeton } from "@/lib/session";
 
 export function CompteForm({ mode }: { mode: "inscription" | "connexion" }) {
@@ -32,14 +33,31 @@ export function CompteForm({ mode }: { mode: "inscription" | "connexion" }) {
 
     setEnvoi(true);
     try {
-      const reponse =
-        mode === "inscription"
-          ? await inscrire({ nom, email, motDePasse, classe, matieres })
-          : await connecter({ email, motDePasse });
+      let reponse;
+      try {
+        reponse =
+          mode === "inscription"
+            ? await inscrire({ nom, email, motDePasse, classe, matieres })
+            : await connecter({ email, motDePasse });
+      } catch (error) {
+        if (!(error instanceof ServeurInjoignable)) {
+          throw error;
+        }
+        reponse =
+          mode === "inscription"
+            ? await inscrireLocal({ nom, email, motDePasse, classe, matieres })
+            : await connecterLocal({ email, motDePasse });
+      }
       ecrireJeton(reponse.jeton);
       window.location.assign(reponse.utilisateur.role === "professeur" ? "/professeur" : "/profil");
     } catch (error) {
-      setErreur(error instanceof Error ? error.message : "La requête a échoué.");
+      setErreur(
+        error instanceof ServeurInjoignable
+          ? "Le compte n’a pas pu être ouvert."
+          : error instanceof Error
+            ? error.message
+            : "La requête a échoué.",
+      );
     } finally {
       setEnvoi(false);
     }

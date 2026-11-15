@@ -3,7 +3,8 @@
 import { NIVEAUX, type CopieEleve } from "@education-togo/shared";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { corrigerCopie, lireCopies } from "@/lib/api";
+import { ServeurInjoignable, corrigerCopie, lireCopies } from "@/lib/api";
+import { profilLocal } from "@/lib/comptesLocaux";
 import { lireJeton } from "@/lib/session";
 
 function dateCourte(iso: string) {
@@ -31,7 +32,13 @@ export default function ProfesseurPage() {
       const copie = await corrigerCopie(copieId, correct, jeton);
       setCopies((liste) => liste?.map((item) => (item.id === copie.id ? copie : item)) ?? null);
     } catch (error: unknown) {
-      setErreur(error instanceof Error ? error.message : "La correction n’a pas été enregistrée.");
+      setErreur(
+        error instanceof ServeurInjoignable
+          ? "La correction n’a pas été enregistrée."
+          : error instanceof Error
+            ? error.message
+            : "La correction n’a pas été enregistrée.",
+      );
     } finally {
       setEnvoi(null);
     }
@@ -43,10 +50,22 @@ export default function ProfesseurPage() {
       setErreur("Connecte-toi avec le compte du professeur.");
       return;
     }
+    const local = profilLocal(jeton);
+    if (local) {
+      setCopies(local.role === "professeur" ? [] : null);
+      setErreur(local.role === "professeur" ? null : "Cette page est réservée au professeur.");
+      return;
+    }
     lireCopies(jeton)
       .then(setCopies)
       .catch((error: unknown) => {
-        setErreur(error instanceof Error ? error.message : "Les copies n’ont pas pu être lues.");
+        setErreur(
+          error instanceof ServeurInjoignable
+            ? "Les copies ne sont pas disponibles sans le serveur."
+            : error instanceof Error
+              ? error.message
+              : "Les copies n’ont pas pu être lues.",
+        );
       });
   }, []);
 

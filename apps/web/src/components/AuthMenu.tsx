@@ -4,6 +4,7 @@ import type { RoleUtilisateur } from "@education-togo/shared";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { lireProfil } from "@/lib/api";
+import { profilLocal } from "@/lib/comptesLocaux";
 import { effacerJeton, lireJeton } from "@/lib/session";
 
 export function AuthMenu() {
@@ -12,6 +13,11 @@ export function AuthMenu() {
   useEffect(() => {
     const jeton = lireJeton();
     if (!jeton) {
+      return;
+    }
+    const local = profilLocal(jeton);
+    if (local) {
+      setCompte({ nom: local.nom, role: local.role });
       return;
     }
     lireProfil(jeton)

@@ -11,6 +11,7 @@ import {
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { lireHistorique, lireMesCopies, lireProfil } from "@/lib/api";
+import { profilLocal } from "@/lib/comptesLocaux";
 import { lireFile, synchroniserFile } from "@/lib/horsLigne";
 import { effacerJeton, lireJeton } from "@/lib/session";
 
@@ -35,6 +36,12 @@ export default function ProfilPage() {
     const jeton = lireJeton();
     if (!jeton) {
       window.location.href = "/connexion";
+      return;
+    }
+    const local = profilLocal(jeton);
+    if (local) {
+      setProfil(local);
+      setEnAttente(lireFile().length);
       return;
     }
     Promise.all([lireProfil(jeton), lireHistorique(jeton), lireMesCopies(jeton)])

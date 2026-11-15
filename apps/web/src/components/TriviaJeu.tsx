@@ -3,7 +3,7 @@
 import type { CorrectionTrivia, PartieTrivia, QuestionHorsLigne } from "@education-togo/shared";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { commencerTrivia, repondreTrivia, terminerTrivia } from "@/lib/api";
+import { ServeurInjoignable, commencerTrivia, repondreTrivia, terminerTrivia } from "@/lib/api";
 import { packIntegre } from "@/lib/contenuLocal";
 import { ajouterPartie, lirePack, noterLocalement, questionsLocales, synchroniserFile } from "@/lib/horsLigne";
 import { lireJeton } from "@/lib/session";
@@ -87,9 +87,9 @@ export function TriviaJeu({ chapitreId }: { chapitreId: string }) {
       const pack = lirePack(chapitreId) ?? packIntegre(chapitreId);
       if (!pack || pack.trivia.length === 0) {
         setErreur(
-          error instanceof Error && error.message !== "hors-ligne"
-            ? error.message
-            : "Ce chapitre n’a pas encore de questions.",
+          error instanceof ServeurInjoignable || !(error instanceof Error) || error.message === "hors-ligne"
+            ? "Ce chapitre n’a pas encore de questions."
+            : error.message,
         );
         return;
       }
@@ -185,7 +185,7 @@ export function TriviaJeu({ chapitreId }: { chapitreId: string }) {
     } catch (error: unknown) {
       envoiRef.current = false;
       setEnvoi(false);
-      setErreur(error instanceof Error ? error.message : "La réponse n’a pas été enregistrée.");
+      setErreur(error instanceof ServeurInjoignable || !(error instanceof Error) ? "La réponse n’a pas été enregistrée." : error.message);
     }
   }
 

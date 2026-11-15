@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { lirePackDistant } from "@/lib/api";
+import { ServeurInjoignable, lirePackDistant } from "@/lib/api";
 import { packIntegre } from "@/lib/contenuLocal";
 import { ecrirePack, lirePack } from "@/lib/horsLigne";
 import { lireJeton } from "@/lib/session";
@@ -33,7 +33,13 @@ export function Telechargement({ chapitreId }: { chapitreId: string }) {
       setPret(true);
       setMessage("QCM et trivia sont prêts hors ligne.");
     } catch (error: unknown) {
-      setMessage(error instanceof Error ? error.message : "Le téléchargement a échoué.");
+      setMessage(
+        error instanceof ServeurInjoignable
+          ? "Le téléchargement reste sur cet appareil."
+          : error instanceof Error
+            ? error.message
+            : "Le téléchargement a échoué.",
+      );
     }
   }
 
