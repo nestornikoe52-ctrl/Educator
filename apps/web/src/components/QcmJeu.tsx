@@ -4,6 +4,7 @@ import type { CorrectionQcm, PartieQcm, QuestionHorsLigne } from "@education-tog
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { commencerQcm, repondreQcm, terminerQcm } from "@/lib/api";
+import { packIntegre } from "@/lib/contenuLocal";
 import { ajouterPartie, lirePack, noterLocalement, questionsLocales, synchroniserFile } from "@/lib/horsLigne";
 import { lireJeton } from "@/lib/session";
 
@@ -35,16 +36,13 @@ export function QcmJeu({ chapitreId }: { chapitreId: string }) {
 
   useEffect(() => {
     setJeton(lireJeton());
-    setPackPret(Boolean(lirePack(chapitreId)?.qcm.length));
+    setPackPret(Boolean((lirePack(chapitreId) ?? packIntegre(chapitreId))?.qcm.length));
     setPret(true);
   }, [chapitreId]);
 
   const question = partie?.questions[index];
 
   async function lancer() {
-    if (!jeton) {
-      return;
-    }
     setErreur(null);
     setBilan(null);
     setCorrection(null);
@@ -55,17 +53,17 @@ export function QcmJeu({ chapitreId }: { chapitreId: string }) {
     setHorsLigne(false);
     localesRef.current = [];
     try {
-      if (!navigator.onLine) {
+      if (!jeton || !navigator.onLine) {
         throw new Error("hors-ligne");
       }
       setPartie(await commencerQcm(chapitreId, jeton));
     } catch (error: unknown) {
-      const pack = lirePack(chapitreId);
+      const pack = lirePack(chapitreId) ?? packIntegre(chapitreId);
       if (!pack || pack.qcm.length === 0) {
         setErreur(
           error instanceof Error && error.message !== "hors-ligne"
             ? error.message
-            : "Télécharge ce chapitre pendant que tu as du réseau.",
+            : "Ce chapitre n’a pas encore de questions.",
         );
         return;
       }
@@ -78,9 +76,9 @@ export function QcmJeu({ chapitreId }: { chapitreId: string }) {
   }
 
   function jouerSansReseau() {
-    const pack = lirePack(chapitreId);
+    const pack = lirePack(chapitreId) ?? packIntegre(chapitreId);
     if (!pack || pack.qcm.length === 0) {
-      setErreur("Télécharge ce chapitre pendant que tu as du réseau.");
+      setErreur("Ce chapitre n’a pas encore de questions.");
       return;
     }
     const locales = questionsLocales(pack.qcm);
@@ -97,7 +95,7 @@ export function QcmJeu({ chapitreId }: { chapitreId: string }) {
   }
 
   async function envoyer(reponse: string) {
-    if (!jeton || !partie || !question || envoi || correction) {
+    if (!partie || !question || envoi || correction) {
       return;
     }
     setEnvoi(true);
@@ -122,6 +120,9 @@ export function QcmJeu({ chapitreId }: { chapitreId: string }) {
       return;
     }
     try {
+      if (!jeton) {
+        throw new Error("hors-ligne");
+      }
       setCorrection(await repondreQcm(partie.sessionId, question.id, reponse, jeton));
     } catch (error: unknown) {
       setErreur(error instanceof Error ? error.message : "La réponse n’a pas été enregistrée.");
@@ -131,19 +132,24 @@ export function QcmJeu({ chapitreId }: { chapitreId: string }) {
   }
 
   function continuer() {
-    if (!correction || !partie || !jeton) {
+    if (!correction || !partie) {
       return;
     }
     if (correction.terminee || index + 1 >= partie.questions.length) {
       setBilan({ score: correction.score, total: correction.total });
       if (horsLigneRef.current) {
-        ajouterPartie({
-          cleClient: partie.sessionId,
-          chapitreId,
-          type: "qcm",
-          reponses: localesRef.current,
-        });
-        void synchroniserFile(jeton).catch(() => undefined);
+        if (jeton) {
+          ajouterPartie({
+            cleClient: partie.sessionId,
+            chapitreId,
+            type: "qcm",
+            reponses: localesRef.current,
+          });
+          void synchroniserFile(jeton).catch(() => undefined);
+        }
+        return;
+      }
+      if (!jeton) {
         return;
       }
       void terminerQcm(partie.sessionId, jeton).catch(() => undefined);
@@ -156,17 +162,6 @@ export function QcmJeu({ chapitreId }: { chapitreId: string }) {
 
   if (!pret) {
     return <p className="mt-8 text-muted">Préparation du QCM…</p>;
-  }
-
-  if (!jeton) {
-    return (
-      <p className="mt-8 text-lg text-ink">
-        Connecte-toi pour garder ton score.{" "}
-        <Link href="/connexion" className="text-green">
-          Connexion
-        </Link>
-      </p>
-    );
   }
 
   if (!partie) {

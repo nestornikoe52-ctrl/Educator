@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { lirePackDistant } from "@/lib/api";
+import { packIntegre } from "@/lib/contenuLocal";
 import { ecrirePack, lirePack } from "@/lib/horsLigne";
 import { lireJeton } from "@/lib/session";
 
@@ -14,6 +15,13 @@ export function Telechargement({ chapitreId }: { chapitreId: string }) {
   }, [chapitreId]);
 
   async function telecharger() {
+    const integre = packIntegre(chapitreId);
+    if (integre && (integre.qcm.length > 0 || integre.trivia.length > 0)) {
+      ecrirePack(integre);
+      setPret(true);
+      setMessage("QCM et trivia sont prêts hors ligne.");
+      return;
+    }
     const jeton = lireJeton();
     if (!jeton) {
       setMessage("Connecte-toi pour garder ce chapitre sur l’appareil.");

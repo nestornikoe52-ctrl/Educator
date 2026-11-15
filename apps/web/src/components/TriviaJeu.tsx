@@ -4,6 +4,7 @@ import type { CorrectionTrivia, PartieTrivia, QuestionHorsLigne } from "@educati
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { commencerTrivia, repondreTrivia, terminerTrivia } from "@/lib/api";
+import { packIntegre } from "@/lib/contenuLocal";
 import { ajouterPartie, lirePack, noterLocalement, questionsLocales, synchroniserFile } from "@/lib/horsLigne";
 import { lireJeton } from "@/lib/session";
 
@@ -37,7 +38,7 @@ export function TriviaJeu({ chapitreId }: { chapitreId: string }) {
 
   useEffect(() => {
     setJeton(lireJeton());
-    setPackPret(Boolean(lirePack(chapitreId)?.trivia.length));
+    setPackPret(Boolean((lirePack(chapitreId) ?? packIntegre(chapitreId))?.trivia.length));
     setPret(true);
   }, [chapitreId]);
 
@@ -68,9 +69,6 @@ export function TriviaJeu({ chapitreId }: { chapitreId: string }) {
   }, [reste, question, correction, bilan]);
 
   async function lancer() {
-    if (!jeton) {
-      return;
-    }
     setErreur(null);
     setBilan(null);
     setCorrection(null);
@@ -80,18 +78,18 @@ export function TriviaJeu({ chapitreId }: { chapitreId: string }) {
     setHorsLigne(false);
     localesRef.current = [];
     try {
-      if (!navigator.onLine) {
+      if (!jeton || !navigator.onLine) {
         throw new Error("hors-ligne");
       }
       const suivante = await commencerTrivia(chapitreId, jeton);
       setPartie(suivante);
     } catch (error: unknown) {
-      const pack = lirePack(chapitreId);
+      const pack = lirePack(chapitreId) ?? packIntegre(chapitreId);
       if (!pack || pack.trivia.length === 0) {
         setErreur(
           error instanceof Error && error.message !== "hors-ligne"
             ? error.message
-            : "Télécharge ce chapitre pendant que tu as du réseau.",
+            : "Ce chapitre n’a pas encore de questions.",
         );
         return;
       }
@@ -104,9 +102,9 @@ export function TriviaJeu({ chapitreId }: { chapitreId: string }) {
   }
 
   function jouerSansReseau() {
-    const pack = lirePack(chapitreId);
+    const pack = lirePack(chapitreId) ?? packIntegre(chapitreId);
     if (!pack || pack.trivia.length === 0) {
-      setErreur("Télécharge ce chapitre pendant que tu as du réseau.");
+      setErreur("Ce chapitre n’a pas encore de questions.");
       return;
     }
     const locales = questionsLocales(pack.trivia);
@@ -122,7 +120,7 @@ export function TriviaJeu({ chapitreId }: { chapitreId: string }) {
   }
 
   async function envoyer(reponse: string) {
-    if (!jeton || !partie || !question || envoiRef.current || correction) {
+    if (!partie || !question || envoiRef.current || correction) {
       return;
     }
     envoiRef.current = true;
@@ -152,13 +150,15 @@ export function TriviaJeu({ chapitreId }: { chapitreId: string }) {
         setCorrection(null);
         if (resultat.terminee) {
           setBilan({ score: resultat.score, total: resultat.total });
-          ajouterPartie({
-            cleClient: partie.sessionId,
-            chapitreId,
-            type: "trivia",
-            reponses: localesRef.current,
-          });
-          void synchroniserFile(jeton).catch(() => undefined);
+          if (jeton) {
+            ajouterPartie({
+              cleClient: partie.sessionId,
+              chapitreId,
+              type: "trivia",
+              reponses: localesRef.current,
+            });
+            void synchroniserFile(jeton).catch(() => undefined);
+          }
           return;
         }
         setIndex((valeur) => valeur + 1);
@@ -166,6 +166,9 @@ export function TriviaJeu({ chapitreId }: { chapitreId: string }) {
       return;
     }
     try {
+      if (!jeton) {
+        throw new Error("hors-ligne");
+      }
       const resultat = await repondreTrivia(partie.sessionId, question.id, reponse, jeton);
       setCorrection(resultat);
       window.setTimeout(() => {
@@ -188,17 +191,6 @@ export function TriviaJeu({ chapitreId }: { chapitreId: string }) {
 
   if (!pret) {
     return <p className="mt-8 text-muted">Préparation de la partie…</p>;
-  }
-
-  if (!jeton) {
-    return (
-      <p className="mt-8 text-lg text-ink">
-        Connecte-toi pour garder ton score.{" "}
-        <Link href="/connexion" className="text-green">
-          Connexion
-        </Link>
-      </p>
-    );
   }
 
   if (!partie) {

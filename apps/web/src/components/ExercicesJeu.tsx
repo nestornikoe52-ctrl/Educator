@@ -4,6 +4,7 @@ import type { CorrectionExercice, PartieExercices } from "@education-togo/shared
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { commencerExercices, repondreExercice, terminerExercices } from "@/lib/api";
+import { exercicesIntegres } from "@/lib/contenuLocal";
 import { lireJeton } from "@/lib/session";
 
 export function ExercicesJeu({ chapitreId }: { chapitreId: string }) {
@@ -16,6 +17,7 @@ export function ExercicesJeu({ chapitreId }: { chapitreId: string }) {
   const [bilan, setBilan] = useState<{ score: number; total: number } | null>(null);
   const [erreur, setErreur] = useState<string | null>(null);
   const [envoi, setEnvoi] = useState(false);
+  const [pistes, setPistes] = useState<Record<string, string>>({});
 
   useEffect(() => {
     setJeton(lireJeton());
@@ -24,45 +26,83 @@ export function ExercicesJeu({ chapitreId }: { chapitreId: string }) {
 
   const question = partie?.questions[index];
 
-  async function lancer() {
-    if (!jeton) {
-      return;
+  function demarrerIci() {
+    const locaux = exercicesIntegres(chapitreId);
+    if (locaux.length === 0) {
+      return false;
     }
+    setPistes(Object.fromEntries(locaux.map((exercice) => [exercice.id, exercice.piste])));
+    setPartie({
+      sessionId: crypto.randomUUID(),
+      questions: locaux.map((exercice) => ({
+        id: exercice.id,
+        ordre: exercice.ordre,
+        question: exercice.question,
+      })),
+    });
+    return true;
+  }
+
+  async function lancer() {
     setErreur(null);
     setBilan(null);
     setCorrection(null);
     setTexte("");
     setIndex(0);
     setPartie(null);
+    setPistes({});
+    if (!jeton) {
+      if (!demarrerIci()) {
+        setErreur("Ce chapitre n’a pas encore d’exercices sur cette page.");
+      }
+      return;
+    }
     try {
       setPartie(await commencerExercices(chapitreId, jeton));
     } catch (error: unknown) {
-      setErreur(error instanceof Error ? error.message : "Les exercices n’ont pas pu démarrer.");
+      if (!demarrerIci()) {
+        setErreur(error instanceof Error ? error.message : "Les exercices n’ont pas pu démarrer.");
+      }
     }
   }
 
   async function envoyer() {
-    if (!jeton || !partie || !question || envoi || correction) {
+    if (!partie || !question || envoi || correction) {
       return;
     }
     setEnvoi(true);
     setErreur(null);
+    const piste = pistes[question.id];
+    if (!jeton || piste) {
+      setCorrection({
+        correct: false,
+        feedback: "Ta réponse est gardée sur cet appareil.",
+        piste: piste ?? null,
+        score: index + 1,
+        total: partie.questions.length,
+        terminee: index + 1 >= partie.questions.length,
+      });
+      setEnvoi(false);
+      return;
+    }
     try {
       setCorrection(await repondreExercice(partie.sessionId, question.id, texte, jeton));
     } catch (error: unknown) {
-      setErreur(error instanceof Error ? error.message : "La correction n’a pas été enregistrée.");
+      setErreur(error instanceof Error ? error.message : "La réponse n’a pas été enregistrée.");
     } finally {
       setEnvoi(false);
     }
   }
 
   function continuer() {
-    if (!correction || !partie || !jeton) {
+    if (!correction || !partie) {
       return;
     }
     if (correction.terminee || index + 1 >= partie.questions.length) {
       setBilan({ score: correction.score, total: correction.total });
-      void terminerExercices(partie.sessionId, jeton).catch(() => undefined);
+      if (jeton && Object.keys(pistes).length === 0) {
+        void terminerExercices(partie.sessionId, jeton).catch(() => undefined);
+      }
       return;
     }
     setCorrection(null);
@@ -72,17 +112,6 @@ export function ExercicesJeu({ chapitreId }: { chapitreId: string }) {
 
   if (!pret) {
     return <p className="mt-8 text-muted">Préparation des exercices…</p>;
-  }
-
-  if (!jeton) {
-    return (
-      <p className="mt-8 text-lg text-ink">
-        Connecte-toi pour garder tes réponses.{" "}
-        <Link href="/connexion" className="text-green">
-          Connexion
-        </Link>
-      </p>
-    );
   }
 
   if (!partie) {
@@ -106,7 +135,11 @@ export function ExercicesJeu({ chapitreId }: { chapitreId: string }) {
         <p className="font-serif text-5xl text-ink">
           {bilan.score} réponse{bilan.score > 1 ? "s" : ""}
         </p>
-        <p className="mt-3 text-lg text-ink">Tes réponses sont enregistrées. Le professeur pourra les lire.</p>
+        <p className="mt-3 text-lg text-ink">
+          {Object.keys(pistes).length > 0
+            ? "Les pistes du chapitre se sont affichées après chaque réponse."
+            : "Tes réponses sont enregistrées. Le professeur pourra les lire."}
+        </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <button
             type="button"

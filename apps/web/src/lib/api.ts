@@ -30,7 +30,18 @@ export async function api<T>(chemin: string, options: RequestInit = {}, jeton?: 
     headers.set("Authorization", `Bearer ${jeton}`);
   }
 
-  const reponse = await fetch(`${API_URL}${chemin}`, { ...options, headers });
+  let reponse: Response;
+  try {
+    reponse = await fetch(`${API_URL}${chemin}`, { ...options, headers });
+  } catch {
+    const publique =
+      typeof window !== "undefined" && window.location.hostname.endsWith("github.io");
+    throw new Error(
+      publique
+        ? "Cette page publique ne joint pas le serveur. Les cours, les sujets et les questions déjà présentes restent utilisables."
+        : "Le serveur ne répond pas.",
+    );
+  }
   const corps = (await reponse.json().catch(() => ({}))) as { message?: string | string[] };
 
   if (!reponse.ok) {
