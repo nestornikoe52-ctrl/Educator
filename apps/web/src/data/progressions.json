@@ -1,0 +1,4257 @@
+[
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Configurations du plan",
+    "lecon": "Droites du plan",
+    "sous_titres": [
+      "Droites du plan"
+    ],
+    "volume_horaire": 8,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Calcul numérique",
+    "lecon": "Arithmétique",
+    "sous_titres": [
+      "Arithmétique"
+    ],
+    "volume_horaire": 10,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Configurations du plan",
+    "lecon": "Segments",
+    "sous_titres": [
+      "Segments"
+    ],
+    "volume_horaire": 6,
+    "semaine": 3,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Calcul numérique",
+    "lecon": "Nombres décimaux / Programme de calcul",
+    "sous_titres": [
+      "Nombres décimaux",
+      "Programme de calcul"
+    ],
+    "volume_horaire": 8,
+    "semaine": 4,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Droites du plan",
+      "Arithmétique",
+      "Segments",
+      "Nombres décimaux / Programme de calcul"
+    ],
+    "volume_horaire": 4,
+    "semaine": 5,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Configurations du plan",
+    "lecon": "Angles",
+    "sous_titres": [
+      "Angles"
+    ],
+    "volume_horaire": 6,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Calcul numérique",
+    "lecon": "Fractions",
+    "sous_titres": [
+      "Fractions"
+    ],
+    "volume_horaire": 6,
+    "semaine": 7,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Configurations du plan",
+    "lecon": "Cercles",
+    "sous_titres": [
+      "Cercles"
+    ],
+    "volume_horaire": 4,
+    "semaine": 8,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Organisation des données et fonctions",
+    "lecon": "Situations de proportionnalité",
+    "sous_titres": [
+      "Situations de proportionnalité"
+    ],
+    "volume_horaire": 4,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Configurations du plan",
+    "lecon": "Triangles",
+    "sous_titres": [
+      "Triangles"
+    ],
+    "volume_horaire": 4,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Angles",
+      "Fractions",
+      "Cercles",
+      "Situations de proportionnalité",
+      "Triangles"
+    ],
+    "volume_horaire": 4,
+    "semaine": 11,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Organisation des données et fonctions",
+    "lecon": "Pourcentages et échelles",
+    "sous_titres": [
+      "Pourcentages et échelles"
+    ],
+    "volume_horaire": 4,
+    "semaine": 12,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Configurations du plan",
+    "lecon": "Parallélogrammes",
+    "sous_titres": [
+      "Parallélogrammes"
+    ],
+    "volume_horaire": 6,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Calcul numérique",
+    "lecon": "Nombres décimaux relatifs",
+    "sous_titres": [
+      "Nombres décimaux relatifs"
+    ],
+    "volume_horaire": 8,
+    "semaine": 14,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Applications du plan",
+    "lecon": "Figures symétriques par rapport à une droite",
+    "sous_titres": [
+      "Figures symétriques par rapport à une droite"
+    ],
+    "volume_horaire": 4,
+    "semaine": 15,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Applications du plan",
+    "lecon": "Figures symétriques par rapport à un point",
+    "sous_titres": [
+      "Figures symétriques par rapport à un point"
+    ],
+    "volume_horaire": 4,
+    "semaine": 16,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "Configurations de l'espace",
+    "lecon": "Cube, Pavé droit",
+    "sous_titres": [
+      "Cube, Pavé droit"
+    ],
+    "volume_horaire": 6,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "6e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Pourcentages et échelles",
+      "Parallélogrammes",
+      "Nombres décimaux relatifs",
+      "Figures symétriques par rapport à une droite",
+      "Figures symétriques par rapport à un point",
+      "Cube, Pavé droit"
+    ],
+    "volume_horaire": 4,
+    "semaine": 18,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Configurations du plan",
+    "lecon": "Distance et segments",
+    "sous_titres": [
+      "Distance et segments"
+    ],
+    "volume_horaire": 8,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Calcul numérique",
+    "lecon": "Nombres décimaux relatifs",
+    "sous_titres": [
+      "Nombres décimaux relatifs"
+    ],
+    "volume_horaire": 8,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Configurations du plan",
+    "lecon": "Angles",
+    "sous_titres": [
+      "Angles"
+    ],
+    "volume_horaire": 6,
+    "semaine": 3,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Calcul numérique",
+    "lecon": "Puissances",
+    "sous_titres": [
+      "Puissances"
+    ],
+    "volume_horaire": 4,
+    "semaine": 4,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Distance et segments",
+      "Nombres décimaux relatifs",
+      "Angles",
+      "Puissances"
+    ],
+    "volume_horaire": 4,
+    "semaine": 5,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Applications du plan",
+    "lecon": "Figures symétriques par rapport à une droite, par rapport à un point",
+    "sous_titres": [
+      "Figures symétriques par rapport à une droite, par rapport à un point"
+    ],
+    "volume_horaire": 8,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Calcul numérique",
+    "lecon": "Arithmétique (division euclidienne, nombres premiers, PPCM, PGCD)",
+    "sous_titres": [
+      "Arithmétique",
+      "division euclidienne",
+      "nombres premiers",
+      "PPCM",
+      "PGCD"
+    ],
+    "volume_horaire": 8,
+    "semaine": 7,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Configurations du plan",
+    "lecon": "Triangles",
+    "sous_titres": [
+      "Triangles"
+    ],
+    "volume_horaire": 6,
+    "semaine": 8,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Calcul numérique",
+    "lecon": "Fractions",
+    "sous_titres": [
+      "Fractions"
+    ],
+    "volume_horaire": 6,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Figures symétriques par rapport à une droite, par rapport à un point",
+      "Arithmétique (division euclidienne, nombres premiers, PPCM, PGCD)",
+      "Triangles",
+      "Fractions"
+    ],
+    "volume_horaire": 4,
+    "semaine": 10,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Configurations du plan",
+    "lecon": "Cercle",
+    "sous_titres": [
+      "Cercle"
+    ],
+    "volume_horaire": 4,
+    "semaine": 11,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Programmes de calcul, calcul littéral",
+    "lecon": "Notion d'équation",
+    "sous_titres": [
+      "Notion d'équation"
+    ],
+    "volume_horaire": 6,
+    "semaine": 12,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Configurations du plan",
+    "lecon": "Polygones",
+    "sous_titres": [
+      "Polygones"
+    ],
+    "volume_horaire": 6,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Organisation des données et fonctions",
+    "lecon": "Proportionnalité",
+    "sous_titres": [
+      "Proportionnalité"
+    ],
+    "volume_horaire": 4,
+    "semaine": 14,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Outils vectoriels, géométrie analytique",
+    "lecon": "Repérage d'un point sur une droite, sur un quadrillage",
+    "sous_titres": [
+      "Repérage d'un point sur une droite, sur un quadrillage"
+    ],
+    "volume_horaire": 4,
+    "semaine": 15,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Organisation des données et fonctions",
+    "lecon": "Pourcentages et échelles",
+    "sous_titres": [
+      "Pourcentages et échelles"
+    ],
+    "volume_horaire": 4,
+    "semaine": 16,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Configurations de l'espace",
+    "lecon": "Prisme droit",
+    "sous_titres": [
+      "Prisme droit"
+    ],
+    "volume_horaire": 4,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "Configurations de l'espace",
+    "lecon": "Cylindre droit",
+    "sous_titres": [
+      "Cylindre droit"
+    ],
+    "volume_horaire": 4,
+    "semaine": 18,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "5e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Cercle",
+      "Notion d'équation",
+      "Polygones",
+      "Proportionnalité",
+      "Repérage d'un point sur une droite, sur un quadrillage",
+      "Pourcentages et échelles",
+      "Prisme droit",
+      "Cylindre droit"
+    ],
+    "volume_horaire": 2,
+    "semaine": 19,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Applications du plan",
+    "lecon": "Symétrie orthogonale, symétrie centrale",
+    "sous_titres": [
+      "Symétrie orthogonale, symétrie centrale"
+    ],
+    "volume_horaire": 4,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Programme de calcul – calcul littéral",
+    "lecon": "Calcul sur les expressions algébriques",
+    "sous_titres": [
+      "Calcul sur les expressions algébriques"
+    ],
+    "volume_horaire": 6,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Configurations du plan",
+    "lecon": "Distance et droites",
+    "sous_titres": [
+      "Distance et droites"
+    ],
+    "volume_horaire": 6,
+    "semaine": 3,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Calcul numérique",
+    "lecon": "Nombres rationnels",
+    "sous_titres": [
+      "Nombres rationnels"
+    ],
+    "volume_horaire": 6,
+    "semaine": 4,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Configurations du plan",
+    "lecon": "Triangles – Polygones réguliers",
+    "sous_titres": [
+      "Triangles",
+      "Polygones réguliers"
+    ],
+    "volume_horaire": 8,
+    "semaine": 5,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Symétrie orthogonale, symétrie centrale",
+      "Calcul sur les expressions algébriques",
+      "Distance et droites",
+      "Nombres rationnels",
+      "Triangles – Polygones réguliers"
+    ],
+    "volume_horaire": 4,
+    "semaine": 6,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Programme de calcul – calcul littéral",
+    "lecon": "Équations – Inéquations",
+    "sous_titres": [
+      "Équations",
+      "Inéquations"
+    ],
+    "volume_horaire": 8,
+    "semaine": 7,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Configurations de l'espace",
+    "lecon": "Perspective cavalière",
+    "sous_titres": [
+      "Perspective cavalière"
+    ],
+    "volume_horaire": 4,
+    "semaine": 8,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Calcul numérique",
+    "lecon": "Nombres décimaux, calcul approché",
+    "sous_titres": [
+      "Nombres décimaux, calcul approché"
+    ],
+    "volume_horaire": 6,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Configurations de l'espace",
+    "lecon": "Droites et plans de l'espace, positions relatives",
+    "sous_titres": [
+      "Droites et plans de l'espace, positions relatives"
+    ],
+    "volume_horaire": 8,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Équations – Inéquations",
+      "Perspective cavalière",
+      "Nombres décimaux, calcul approché",
+      "Droites et plans de l'espace, positions relatives"
+    ],
+    "volume_horaire": 4,
+    "semaine": 11,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Organisation des données",
+    "lecon": "Proportionnalité",
+    "sous_titres": [
+      "Proportionnalité"
+    ],
+    "volume_horaire": 4,
+    "semaine": 12,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Configurations du plan",
+    "lecon": "Angles – Cercles",
+    "sous_titres": [
+      "Angles",
+      "Cercles"
+    ],
+    "volume_horaire": 10,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Applications du plan",
+    "lecon": "Projection",
+    "sous_titres": [
+      "Projection"
+    ],
+    "volume_horaire": 4,
+    "semaine": 14,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Organisation des données",
+    "lecon": "Statistiques",
+    "sous_titres": [
+      "Statistiques"
+    ],
+    "volume_horaire": 4,
+    "semaine": 15,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Applications du plan",
+    "lecon": "Translations",
+    "sous_titres": [
+      "Translations"
+    ],
+    "volume_horaire": 4,
+    "semaine": 16,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Outil vectoriel, géométrie analytique",
+    "lecon": "Vecteurs – Repérage",
+    "sous_titres": [
+      "Vecteurs",
+      "Repérage"
+    ],
+    "volume_horaire": 5,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "Configurations de l'espace",
+    "lecon": "Sphère",
+    "sous_titres": [
+      "Sphère"
+    ],
+    "volume_horaire": 3,
+    "semaine": 18,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "4e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Proportionnalité",
+      "Angles – Cercles",
+      "Projection",
+      "Statistiques",
+      "Translations",
+      "Vecteurs – Repérage",
+      "Sphère"
+    ],
+    "volume_horaire": 4,
+    "semaine": 19,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Configurations du plan",
+    "lecon": "Propriété de Thalès",
+    "sous_titres": [
+      "Propriété de Thalès"
+    ],
+    "volume_horaire": 8,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Programme de calcul – calcul littéral",
+    "lecon": "Monômes, polynômes, fractions rationnelles",
+    "sous_titres": [
+      "Monômes, polynômes, fractions rationnelles"
+    ],
+    "volume_horaire": 6,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Configurations du plan",
+    "lecon": "Trigonométrie dans le triangle rectangle",
+    "sous_titres": [
+      "Trigonométrie dans le triangle rectangle"
+    ],
+    "volume_horaire": 8,
+    "semaine": 3,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Calcul numérique",
+    "lecon": "Nombres réels : Racines carrées",
+    "sous_titres": [
+      "Racines carrées"
+    ],
+    "volume_horaire": 6,
+    "semaine": 4,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Propriété de Thalès",
+      "Monômes, polynômes, fractions rationnelles",
+      "Trigonométrie dans le triangle rectangle",
+      "Nombres réels : Racines carrées"
+    ],
+    "volume_horaire": 4,
+    "semaine": 5,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Outil vectoriel, géométrie analytique",
+    "lecon": "Vecteurs",
+    "sous_titres": [
+      "Vecteurs"
+    ],
+    "volume_horaire": 5,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Calcul numérique",
+    "lecon": "Nombres réels : Intervalles, calculs approchés",
+    "sous_titres": [
+      "Intervalles, calculs approchés"
+    ],
+    "volume_horaire": 6,
+    "semaine": 7,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Outil vectoriel, géométrie analytique",
+    "lecon": "Coordonnées et calculs dans un repère",
+    "sous_titres": [
+      "Coordonnées et calculs dans un repère"
+    ],
+    "volume_horaire": 5,
+    "semaine": 8,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Programme de calcul – calcul littéral",
+    "lecon": "Équations – Inéquations dans IR",
+    "sous_titres": [
+      "Équations",
+      "Inéquations dans IR"
+    ],
+    "volume_horaire": 6,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Configurations de l'espace",
+    "lecon": "Pyramide, Cône de révolution",
+    "sous_titres": [
+      "Pyramide, Cône de révolution"
+    ],
+    "volume_horaire": 8,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Vecteurs",
+      "Nombres réels : Intervalles, calculs approchés",
+      "Coordonnées et calculs dans un repère",
+      "Équations – Inéquations dans IR",
+      "Pyramide, Cône de révolution"
+    ],
+    "volume_horaire": 4,
+    "semaine": 11,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Programme de calcul – calcul littéral",
+    "lecon": "Équations – Inéquations dans IR × IR",
+    "sous_titres": [
+      "Équations",
+      "Inéquations dans IR × IR"
+    ],
+    "volume_horaire": 6,
+    "semaine": 12,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Outil vectoriel, géométrie analytique",
+    "lecon": "Équations de droites",
+    "sous_titres": [
+      "Équations de droites"
+    ],
+    "volume_horaire": 6,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Organisation des données",
+    "lecon": "Applications linéaires, applications affines",
+    "sous_titres": [
+      "Applications linéaires, applications affines"
+    ],
+    "volume_horaire": 5,
+    "semaine": 14,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Configurations du plan",
+    "lecon": "Angles inscrits dans un cercle",
+    "sous_titres": [
+      "Angles inscrits dans un cercle"
+    ],
+    "volume_horaire": 4,
+    "semaine": 15,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Organisation des données",
+    "lecon": "Statistiques",
+    "sous_titres": [
+      "Statistiques"
+    ],
+    "volume_horaire": 4,
+    "semaine": 16,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Applications du plan",
+    "lecon": "Symétries orthogonales, symétries centrales, translations",
+    "sous_titres": [
+      "Symétries orthogonales, symétries centrales, translations"
+    ],
+    "volume_horaire": 4,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "Applications du plan",
+    "lecon": "Homothéties",
+    "sous_titres": [
+      "Homothéties"
+    ],
+    "volume_horaire": 3,
+    "semaine": 18,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Mathématiques",
+    "classe": "3e",
+    "theme": "EC/SI",
+    "lecon": "Évaluation des compétences : Semaine d'intégration",
+    "sous_titres": [
+      "Équations – Inéquations dans IR × IR",
+      "Équations de droites",
+      "Applications linéaires, applications affines",
+      "Angles inscrits dans un cercle",
+      "Statistiques",
+      "Symétries orthogonales, symétries centrales, translations",
+      "Homothéties"
+    ],
+    "volume_horaire": 4,
+    "semaine": 19,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : États et propriétés de la matière",
+    "lecon": "L1 Les états de la matière : états de la matière ; propriétés des solides compacts ou divisés",
+    "sous_titres": [
+      "états de la matière",
+      "propriétés des solides compacts ou divisés"
+    ],
+    "volume_horaire": 2,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : États et propriétés de la matière",
+    "lecon": "L1 Les états de la matière : propriétés des liquides ; propriétés des gaz",
+    "sous_titres": [
+      "propriétés des liquides",
+      "propriétés des gaz"
+    ],
+    "volume_horaire": 2,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : États et propriétés de la matière",
+    "lecon": "L2 Les changements d'état de l'eau : fusion, solidification ; vaporisation, liquéfaction",
+    "sous_titres": [
+      "fusion, solidification",
+      "vaporisation, liquéfaction"
+    ],
+    "volume_horaire": 2,
+    "semaine": 3,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : États et propriétés de la matière",
+    "lecon": "L2 Les changements d'état de l'eau : évaporation et ébullition ; cycle de l'eau",
+    "sous_titres": [
+      "évaporation et ébullition",
+      "cycle de l'eau"
+    ],
+    "volume_horaire": 2,
+    "semaine": 4,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L1 Les états de la matière : états de la matière ; propriétés des solides compacts ou divisés",
+      "L1 Les états de la matière : propriétés des liquides ; propriétés des gaz",
+      "L2 Les changements d'état de l'eau : fusion, solidification ; vaporisation, liquéfaction",
+      "L2 Les changements d'état de l'eau : évaporation et ébullition ; cycle de l'eau"
+    ],
+    "volume_horaire": 2,
+    "semaine": 5,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Chimie : La combustion",
+    "lecon": "L1 Étude expérimentale de la combustion d'une bougie : étude expérimentale ; mise en évidence des produits de réaction ; combustion, combustible, comburant",
+    "sous_titres": [
+      "étude expérimentale",
+      "mise en évidence des produits de réaction",
+      "combustion, combustible, comburant"
+    ],
+    "volume_horaire": 2,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Chimie : La combustion",
+    "lecon": "L1 Étude expérimentale de la combustion d'une bougie : transformation chimique (réactif, produit, réaction chimique) ; transformation physique",
+    "sous_titres": [
+      "transformation chimique",
+      "réactif",
+      "produit",
+      "réaction chimique",
+      "transformation physique"
+    ],
+    "volume_horaire": 2,
+    "semaine": 7,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L1 Étude expérimentale de la combustion d'une bougie : étude expérimentale ; mise en évidence des produits de réaction ; combustion, combustible, comburant",
+      "L1 Étude expérimentale de la combustion d'une bougie : transformation chimique (réactif, produit, réaction chimique) ; transformation physique"
+    ],
+    "volume_horaire": 2,
+    "semaine": 8,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : États et propriétés de la matière",
+    "lecon": "L3 Grandeurs physiques : le volume (définition, unités, mesure de liquides et solides, calcul de volumes simples)",
+    "sous_titres": [
+      "le volume",
+      "définition",
+      "unités",
+      "mesure de liquides et solides",
+      "calcul de volumes simples"
+    ],
+    "volume_horaire": 2,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : États et propriétés de la matière",
+    "lecon": "L3 Grandeurs physiques : la masse (définition, unités, balance, mesure de la masse des solides et liquides)",
+    "sous_titres": [
+      "la masse",
+      "définition",
+      "unités",
+      "balance",
+      "mesure de la masse des solides et liquides"
+    ],
+    "volume_horaire": 2,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : États et propriétés de la matière",
+    "lecon": "L3 Grandeurs physiques : la température (définition, unité, thermomètre, lecture, température et chaleur)",
+    "sous_titres": [
+      "la température",
+      "définition",
+      "unité",
+      "thermomètre",
+      "lecture",
+      "température et chaleur"
+    ],
+    "volume_horaire": 2,
+    "semaine": 11,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L3 Grandeurs physiques : le volume (définition, unités, mesure de liquides et solides, calcul de volumes simples)",
+      "L3 Grandeurs physiques : la masse (définition, unités, balance, mesure de la masse des solides et liquides)",
+      "L3 Grandeurs physiques : la température (définition, unité, thermomètre, lecture, température et chaleur)"
+    ],
+    "volume_horaire": 2,
+    "semaine": 12,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : Électricité",
+    "lecon": "L4 Circuit électrique : éléments d'un circuit ; étude expérimentale d'un circuit simple",
+    "sous_titres": [
+      "éléments d'un circuit",
+      "étude expérimentale d'un circuit simple"
+    ],
+    "volume_horaire": 2,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : Électricité",
+    "lecon": "L4 Circuit électrique : rôle de la pile ; notion de courant électrique ; schématisation ; adaptation lampe/générateur ; association de piles en série",
+    "sous_titres": [
+      "rôle de la pile",
+      "notion de courant électrique",
+      "schématisation",
+      "adaptation lampe/générateur",
+      "association de piles en série"
+    ],
+    "volume_horaire": 2,
+    "semaine": 14,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : Électricité",
+    "lecon": "L5 Conducteurs et isolants électriques : étude expérimentale, définitions, applications",
+    "sous_titres": [
+      "étude expérimentale, définitions, applications"
+    ],
+    "volume_horaire": 2,
+    "semaine": 15,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L4 Circuit électrique : éléments d'un circuit ; étude expérimentale d'un circuit simple",
+      "L4 Circuit électrique : rôle de la pile ; notion de courant électrique ; schématisation ; adaptation lampe/générateur ; association de piles en série",
+      "L5 Conducteurs et isolants électriques : étude expérimentale, définitions, applications"
+    ],
+    "volume_horaire": 2,
+    "semaine": 16,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Chimie : La combustion",
+    "lecon": "L2 Combustion des combustibles usuels : combustibles usuels ; étude expérimentale ; triangle du feu",
+    "sous_titres": [
+      "combustibles usuels",
+      "étude expérimentale",
+      "triangle du feu"
+    ],
+    "volume_horaire": 2,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Chimie : La combustion",
+    "lecon": "L2 Combustion des combustibles usuels : utilité de la combustion ; dangers de la combustion",
+    "sous_titres": [
+      "utilité de la combustion",
+      "dangers de la combustion"
+    ],
+    "volume_horaire": 2,
+    "semaine": 18,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L2 Combustion des combustibles usuels : combustibles usuels ; étude expérimentale ; triangle du feu",
+      "L2 Combustion des combustibles usuels : utilité de la combustion ; dangers de la combustion"
+    ],
+    "volume_horaire": 2,
+    "semaine": 19,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : Électricité",
+    "lecon": "L6 Circuits série, circuits avec dérivation : circuit série (étude expérimentale, schématisation, définition)",
+    "sous_titres": [
+      "circuit série",
+      "étude expérimentale",
+      "schématisation",
+      "définition"
+    ],
+    "volume_horaire": 2,
+    "semaine": 20,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : Électricité",
+    "lecon": "L6 Circuits série, circuits avec dérivation : circuit avec dérivation (étude expérimentale, schématisation, définition)",
+    "sous_titres": [
+      "circuit avec dérivation",
+      "étude expérimentale",
+      "schématisation",
+      "définition"
+    ],
+    "volume_horaire": 2,
+    "semaine": 21,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Physique : Électricité",
+    "lecon": "L6 Circuits série, circuits avec dérivation : court-circuit d'une lampe (définition, réalisation, schématisation, danger, fusible)",
+    "sous_titres": [
+      "court-circuit d'une lampe",
+      "définition",
+      "réalisation",
+      "schématisation",
+      "danger",
+      "fusible"
+    ],
+    "volume_horaire": 1,
+    "semaine": 22,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L6 Circuits série, circuits avec dérivation : circuit série (étude expérimentale, schématisation, définition)",
+      "L6 Circuits série, circuits avec dérivation : circuit avec dérivation (étude expérimentale, schématisation, définition)",
+      "L6 Circuits série, circuits avec dérivation : court-circuit d'une lampe (définition, réalisation, schématisation, danger, fusible)"
+    ],
+    "volume_horaire": 2,
+    "semaine": 22,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Chimie : La combustion",
+    "lecon": "L3 Combustion du soufre : étude expérimentale, produit de réaction, la réaction, équation-bilan",
+    "sous_titres": [
+      "étude expérimentale, produit de réaction, la réaction, équation-bilan"
+    ],
+    "volume_horaire": 1,
+    "semaine": 23,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Chimie : La combustion",
+    "lecon": "L4 La combustion et l'environnement : pollution de l'air ; action du CO2 et du SO2 sur la santé et l'environnement ; autres polluants ; protection de l'environnement",
+    "sous_titres": [
+      "pollution de l'air",
+      "action du CO2 et du SO2 sur la santé et l'environnement",
+      "autres polluants",
+      "protection de l'environnement"
+    ],
+    "volume_horaire": 2,
+    "semaine": 24,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L3 Combustion du soufre : étude expérimentale, produit de réaction, la réaction, équation-bilan",
+      "L4 La combustion et l'environnement : pollution de l'air ; action du CO2 et du SO2 sur la santé et l'environnement ; autres polluants ; protection de l'environnement"
+    ],
+    "volume_horaire": 2,
+    "semaine": 25,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Physique : États et propriétés physiques de la matière",
+    "lecon": "L1 État solide et état liquide : masse volumique d'un solide",
+    "sous_titres": [
+      "masse volumique d'un solide"
+    ],
+    "volume_horaire": 2,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Physique : États et propriétés physiques de la matière",
+    "lecon": "L1 État solide et état liquide : masse volumique d'un liquide",
+    "sous_titres": [
+      "masse volumique d'un liquide"
+    ],
+    "volume_horaire": 2,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L1 État solide et état liquide : masse volumique d'un solide",
+      "L1 État solide et état liquide : masse volumique d'un liquide"
+    ],
+    "volume_horaire": 2,
+    "semaine": 3,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Physique : États et propriétés physiques de la matière",
+    "lecon": "L2 L'état gazeux : masse volumique de l'air",
+    "sous_titres": [
+      "masse volumique de l'air"
+    ],
+    "volume_horaire": 2,
+    "semaine": 4,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Physique : États et propriétés physiques de la matière",
+    "lecon": "L2 L'état gazeux : propriétés des gaz ; pression dans un gaz",
+    "sous_titres": [
+      "propriétés des gaz",
+      "pression dans un gaz"
+    ],
+    "volume_horaire": 2,
+    "semaine": 5,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Physique : États et propriétés physiques de la matière",
+    "lecon": "L2 L'état gazeux : mesure de la pression ; pression atmosphérique",
+    "sous_titres": [
+      "mesure de la pression",
+      "pression atmosphérique"
+    ],
+    "volume_horaire": 2,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L2 L'état gazeux : masse volumique de l'air",
+      "L2 L'état gazeux : propriétés des gaz ; pression dans un gaz",
+      "L2 L'état gazeux : mesure de la pression ; pression atmosphérique"
+    ],
+    "volume_horaire": 2,
+    "semaine": 7,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Chimie : Discontinuité de la matière",
+    "lecon": "L1 Molécules et atomes : caractère particulaire de la matière ; molécule ; atome ; formule d'une molécule",
+    "sous_titres": [
+      "caractère particulaire de la matière",
+      "molécule",
+      "atome",
+      "formule d'une molécule"
+    ],
+    "volume_horaire": 2,
+    "semaine": 8,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Chimie : Discontinuité de la matière",
+    "lecon": "L1 Molécules et atomes : corps purs simples et composés ; mélange de corps purs, cas de l'air",
+    "sous_titres": [
+      "corps purs simples et composés",
+      "mélange de corps purs, cas de l'air"
+    ],
+    "volume_horaire": 2,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L1 Molécules et atomes : caractère particulaire de la matière ; molécule ; atome ; formule d'une molécule",
+      "L1 Molécules et atomes : corps purs simples et composés ; mélange de corps purs, cas de l'air"
+    ],
+    "volume_horaire": 2,
+    "semaine": 10,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Physique : Électricité",
+    "lecon": "L3 Intensité du courant électrique : courant électrique ; sens, intensité, mesure",
+    "sous_titres": [
+      "courant électrique",
+      "sens, intensité, mesure"
+    ],
+    "volume_horaire": 2,
+    "semaine": 11,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Physique : Électricité",
+    "lecon": "L3 Intensité du courant électrique : mesures",
+    "sous_titres": [
+      "mesures"
+    ],
+    "volume_horaire": 2,
+    "semaine": 12,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Physique : Électricité",
+    "lecon": "L4 Tension électrique : la tension, unité, mesure",
+    "sous_titres": [
+      "la tension, unité, mesure"
+    ],
+    "volume_horaire": 2,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Physique : Électricité",
+    "lecon": "L4 Tension électrique : mesures",
+    "sous_titres": [
+      "mesures"
+    ],
+    "volume_horaire": 2,
+    "semaine": 14,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L3 Intensité du courant électrique : courant électrique ; sens, intensité, mesure",
+      "L3 Intensité du courant électrique : mesures",
+      "L4 Tension électrique : la tension, unité, mesure",
+      "L4 Tension électrique : mesures"
+    ],
+    "volume_horaire": 2,
+    "semaine": 15,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Physique : Électricité",
+    "lecon": "L5 Circuit série et circuit avec dérivation : circuit série",
+    "sous_titres": [
+      "circuit série"
+    ],
+    "volume_horaire": 2,
+    "semaine": 16,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Physique : Électricité",
+    "lecon": "L5 Circuit série et circuit avec dérivation : circuit avec dérivation",
+    "sous_titres": [
+      "circuit avec dérivation"
+    ],
+    "volume_horaire": 2,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L5 Circuit série et circuit avec dérivation : circuit série",
+      "L5 Circuit série et circuit avec dérivation : circuit avec dérivation"
+    ],
+    "volume_horaire": 2,
+    "semaine": 18,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Chimie : Réactions chimiques",
+    "lecon": "L2 Combustion du carbone : étude expérimentale, produit formé, équation-bilan",
+    "sous_titres": [
+      "étude expérimentale, produit formé, équation-bilan"
+    ],
+    "volume_horaire": 2,
+    "semaine": 19,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Chimie : Réactions chimiques",
+    "lecon": "L3 Combustions du fer : combustion vive ; combustion lente (la rouille)",
+    "sous_titres": [
+      "combustion vive",
+      "combustion lente (la rouille)"
+    ],
+    "volume_horaire": 2,
+    "semaine": 20,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L2 Combustion du carbone : étude expérimentale, produit formé, équation-bilan",
+      "L3 Combustions du fer : combustion vive ; combustion lente (la rouille)"
+    ],
+    "volume_horaire": 2,
+    "semaine": 21,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Chimie : Réactions chimiques",
+    "lecon": "L4 Combustion du dihydrogène : obtention par action de l'acide chlorhydrique sur le fer ; combustion du dihydrogène",
+    "sous_titres": [
+      "obtention par action de l'acide chlorhydrique sur le fer",
+      "combustion du dihydrogène"
+    ],
+    "volume_horaire": 2,
+    "semaine": 22,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Chimie : Réactions chimiques",
+    "lecon": "L5 Action de l'acide chlorhydrique sur le calcaire : expérience, caractérisation du produit, test de reconnaissance du calcaire",
+    "sous_titres": [
+      "expérience, caractérisation du produit, test de reconnaissance du calcaire"
+    ],
+    "volume_horaire": 2,
+    "semaine": 23,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Chimie : Réactions chimiques",
+    "lecon": "L6 Cycle de réactions chimiques : conservation de l'atome",
+    "sous_titres": [
+      "conservation de l'atome"
+    ],
+    "volume_horaire": 2,
+    "semaine": 24,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L4 Combustion du dihydrogène : obtention par action de l'acide chlorhydrique sur le fer ; combustion du dihydrogène",
+      "L5 Action de l'acide chlorhydrique sur le calcaire : expérience, caractérisation du produit, test de reconnaissance du calcaire",
+      "L6 Cycle de réactions chimiques : conservation de l'atome"
+    ],
+    "volume_horaire": 2,
+    "semaine": 25,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Électricité",
+    "lecon": "L1 Aimant et bobine : aimant",
+    "sous_titres": [
+      "aimant"
+    ],
+    "volume_horaire": 2,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Électricité",
+    "lecon": "L1 Aimant et bobine : bobine ; électroaimant ; face nord et face sud d'un électroaimant ; interaction aimant-bobine",
+    "sous_titres": [
+      "bobine",
+      "électroaimant",
+      "face nord et face sud d'un électroaimant",
+      "interaction aimant-bobine"
+    ],
+    "volume_horaire": 4,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation ; Remédiation",
+    "sous_titres": [
+      "L1 Aimant et bobine : aimant",
+      "L1 Aimant et bobine : bobine ; électroaimant ; face nord et face sud d'un électroaimant ; interaction aimant-bobine"
+    ],
+    "volume_horaire": 4,
+    "semaine": 3,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Chimie",
+    "lecon": "L1 Structure de l'atome : électrisation par frottement (deux sortes d'électricité) ; modèle atomique (noyau, électrons, électroneutralité)",
+    "sous_titres": [
+      "électrisation par frottement (deux sortes d'électricité)",
+      "modèle atomique",
+      "noyau",
+      "électrons",
+      "électroneutralité"
+    ],
+    "volume_horaire": 4,
+    "semaine": 4,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Chimie",
+    "lecon": "L2 Structure de l'atome et électricité : interprétation électronique du courant dans un métal ; sens de déplacement des électrons ; sens conventionnel du courant ; cas des isolants",
+    "sous_titres": [
+      "interprétation électronique du courant dans un métal",
+      "sens de déplacement des électrons",
+      "sens conventionnel du courant",
+      "cas des isolants"
+    ],
+    "volume_horaire": 4,
+    "semaine": 5,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation ; Remédiation",
+    "sous_titres": [
+      "L1 Structure de l'atome : électrisation par frottement (deux sortes d'électricité) ; modèle atomique (noyau, électrons, électroneutralité)",
+      "L2 Structure de l'atome et électricité : interprétation électronique du courant dans un métal ; sens de déplacement des électrons ; sens conventionnel du courant ; cas des isolants"
+    ],
+    "volume_horaire": 4,
+    "semaine": 6,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Électricité",
+    "lecon": "L2 Tension alternative : définition ; production ; courant alternatif et courant continu",
+    "sous_titres": [
+      "définition",
+      "production",
+      "courant alternatif et courant continu"
+    ],
+    "volume_horaire": 4,
+    "semaine": 7,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Électricité",
+    "lecon": "L2 Courant alternatif : principe des alternateurs ; caractéristiques d'une tension alternative sinusoïdale",
+    "sous_titres": [
+      "principe des alternateurs",
+      "caractéristiques d'une tension alternative sinusoïdale"
+    ],
+    "volume_horaire": 2,
+    "semaine": 8,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Électricité",
+    "lecon": "L3 Tension du secteur",
+    "sous_titres": [
+      "Tension du secteur"
+    ],
+    "volume_horaire": 2,
+    "semaine": 8,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Électricité",
+    "lecon": "L4 Le transformateur",
+    "sous_titres": [
+      "Le transformateur"
+    ],
+    "volume_horaire": 4,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation ; Remédiation",
+    "sous_titres": [
+      "L2 Tension alternative : définition ; production ; courant alternatif et courant continu",
+      "L2 Courant alternatif : principe des alternateurs ; caractéristiques d'une tension alternative sinusoïdale",
+      "L3 Tension du secteur",
+      "L4 Le transformateur"
+    ],
+    "volume_horaire": 4,
+    "semaine": 10,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Chimie",
+    "lecon": "L3 Les ions : définition ; anions et cations ; exemples ; ion cuivre Cu2+ (couleur, test de caractérisation)",
+    "sous_titres": [
+      "définition",
+      "anions et cations",
+      "exemples",
+      "ion cuivre Cu2+",
+      "couleur",
+      "test de caractérisation"
+    ],
+    "volume_horaire": 4,
+    "semaine": 11,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Chimie",
+    "lecon": "L4 Transformation chimique de l'ion cuivre en cuivre et inversement : réaction fer / ion cuivre ; solution d'acide nitrique / cuivre",
+    "sous_titres": [
+      "réaction fer",
+      "ion cuivre",
+      "solution d'acide nitrique",
+      "cuivre"
+    ],
+    "volume_horaire": 4,
+    "semaine": 12,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L5 Poids d'un corps : définition, symbole, unité ; proportionnalité poids/masse",
+    "sous_titres": [
+      "définition, symbole, unité",
+      "proportionnalité poids/masse"
+    ],
+    "volume_horaire": 2,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L6 Poussée d'Archimède : définition, mesure, poids apparent",
+    "sous_titres": [
+      "définition, mesure, poids apparent"
+    ],
+    "volume_horaire": 2,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L6 Poussée d'Archimède : facteurs dont dépend la poussée ; expression de la poussée",
+    "sous_titres": [
+      "facteurs dont dépend la poussée",
+      "expression de la poussée"
+    ],
+    "volume_horaire": 4,
+    "semaine": 14,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L6 Poussée d'Archimède : immersion totale et partielle ; densité des liquides ; critère de flottaison ; poussée dans les gaz",
+    "sous_titres": [
+      "immersion totale et partielle",
+      "densité des liquides",
+      "critère de flottaison",
+      "poussée dans les gaz"
+    ],
+    "volume_horaire": 4,
+    "semaine": 15,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation ; Remédiation",
+    "sous_titres": [
+      "L3 Les ions : définition ; anions et cations ; exemples ; ion cuivre Cu2+ (couleur, test de caractérisation)",
+      "L4 Transformation chimique de l'ion cuivre en cuivre et inversement : réaction fer / ion cuivre ; solution d'acide nitrique / cuivre",
+      "L5 Poids d'un corps : définition, symbole, unité ; proportionnalité poids/masse",
+      "L6 Poussée d'Archimède : définition, mesure, poids apparent",
+      "L6 Poussée d'Archimède : facteurs dont dépend la poussée ; expression de la poussée",
+      "L6 Poussée d'Archimède : immersion totale et partielle ; densité des liquides ; critère de flottaison ; poussée dans les gaz"
+    ],
+    "volume_horaire": 4,
+    "semaine": 16,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Chimie",
+    "lecon": "L5 Transformation électrochimique de l'ion cuivre et du cuivre : étude expérimentale ; interprétation électronique",
+    "sous_titres": [
+      "étude expérimentale",
+      "interprétation électronique"
+    ],
+    "volume_horaire": 2,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Optique",
+    "lecon": "L7 Source et récepteur de lumière",
+    "sous_titres": [
+      "Source et récepteur de lumière"
+    ],
+    "volume_horaire": 3,
+    "semaine": 18,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Optique",
+    "lecon": "L8 Propagation rectiligne de la lumière : corps transparents, opaques, translucides ; faisceaux, rayon lumineux ; chambre noire",
+    "sous_titres": [
+      "corps transparents, opaques, translucides",
+      "faisceaux, rayon lumineux",
+      "chambre noire"
+    ],
+    "volume_horaire": 4,
+    "semaine": 19,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Optique",
+    "lecon": "L8 Propagation rectiligne de la lumière : vitesse de propagation de la lumière ; unités de longueur en astronomie",
+    "sous_titres": [
+      "vitesse de propagation de la lumière",
+      "unités de longueur en astronomie"
+    ],
+    "volume_horaire": 2,
+    "semaine": 20,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Optique",
+    "lecon": "L9 Ombres, phases de la lune, éclipses : les ombres",
+    "sous_titres": [
+      "les ombres"
+    ],
+    "volume_horaire": 2,
+    "semaine": 20,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Optique",
+    "lecon": "L9 Ombres, phases de la lune, éclipses : les phases de la lune ; les éclipses",
+    "sous_titres": [
+      "les phases de la lune",
+      "les éclipses"
+    ],
+    "volume_horaire": 4,
+    "semaine": 21,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation ; Remédiation",
+    "sous_titres": [
+      "L5 Transformation électrochimique de l'ion cuivre et du cuivre : étude expérimentale ; interprétation électronique",
+      "L7 Source et récepteur de lumière",
+      "L8 Propagation rectiligne de la lumière : corps transparents, opaques, translucides ; faisceaux, rayon lumineux ; chambre noire",
+      "L8 Propagation rectiligne de la lumière : vitesse de propagation de la lumière ; unités de longueur en astronomie",
+      "L9 Ombres, phases de la lune, éclipses : les ombres",
+      "L9 Ombres, phases de la lune, éclipses : les phases de la lune ; les éclipses"
+    ],
+    "volume_horaire": 2,
+    "semaine": 22,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Chimie",
+    "lecon": "L6 Courant électrique dans les électrolytes : double migration des ions",
+    "sous_titres": [
+      "double migration des ions"
+    ],
+    "volume_horaire": 2,
+    "semaine": 23,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Physique : Optique",
+    "lecon": "L10 Réflexion de la lumière : image à travers un miroir plan (expérience des deux bougies) ; caractéristiques de l'image ; lois de réflexion",
+    "sous_titres": [
+      "image à travers un miroir plan (expérience des deux bougies)",
+      "caractéristiques de l'image",
+      "lois de réflexion"
+    ],
+    "volume_horaire": 4,
+    "semaine": 24,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation ; Remédiation",
+    "sous_titres": [
+      "L6 Courant électrique dans les électrolytes : double migration des ions",
+      "L10 Réflexion de la lumière : image à travers un miroir plan (expérience des deux bougies) ; caractéristiques de l'image ; lois de réflexion"
+    ],
+    "volume_horaire": 4,
+    "semaine": 25,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L1 Les forces : poids d'un corps (caractéristiques, centre de gravité, représentation vectorielle)",
+    "sous_titres": [
+      "poids d'un corps",
+      "caractéristiques",
+      "centre de gravité",
+      "représentation vectorielle"
+    ],
+    "volume_horaire": 2,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L1 Les forces : poussée d'Archimède ; caractéristiques d'une force (point d'application, direction, sens, intensité en newton, dynamomètre) ; définition d'une force",
+    "sous_titres": [
+      "poussée d'Archimède",
+      "caractéristiques d'une force",
+      "point d'application",
+      "direction",
+      "sens",
+      "intensité en newton",
+      "dynamomètre",
+      "définition d'une force"
+    ],
+    "volume_horaire": 2,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L1 Les forces : modes d'action des forces (à distance ou de contact ; action répartie ou localisée)",
+    "sous_titres": [
+      "modes d'action des forces (à distance ou de contact",
+      "action répartie ou localisée)"
+    ],
+    "volume_horaire": 2,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation sommative ; Remédiation",
+    "sous_titres": [
+      "L1 Les forces : poids d'un corps (caractéristiques, centre de gravité, représentation vectorielle)",
+      "L1 Les forces : poussée d'Archimède ; caractéristiques d'une force (point d'application, direction, sens, intensité en newton, dynamomètre) ; définition d'une force",
+      "L1 Les forces : modes d'action des forces (à distance ou de contact ; action répartie ou localisée)"
+    ],
+    "volume_horaire": 2,
+    "semaine": 3,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Chimie",
+    "lecon": "L1 Corps moléculaires : l'eau, décomposition par électrolyse, synthèse, équations-bilan",
+    "sous_titres": [
+      "l'eau, décomposition par électrolyse, synthèse, équations-bilan"
+    ],
+    "volume_horaire": 2,
+    "semaine": 3,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Chimie",
+    "lecon": "L2 Les alcanes : méthane, éthane, propane, butane ; formule brute ; combustion et équations-bilan",
+    "sous_titres": [
+      "méthane, éthane, propane, butane",
+      "formule brute",
+      "combustion et équations-bilan"
+    ],
+    "volume_horaire": 2,
+    "semaine": 4,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Enrichissement et approfondissement ; Évaluation-Remédiation",
+    "sous_titres": [
+      "L1 Corps moléculaires : l'eau, décomposition par électrolyse, synthèse, équations-bilan",
+      "L2 Les alcanes : méthane, éthane, propane, butane ; formule brute ; combustion et équations-bilan"
+    ],
+    "volume_horaire": 2,
+    "semaine": 4,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L2 Équilibre d'un corps soumis à des forces concourantes : solide soumis à deux forces opposées ; solide soumis à trois forces concourantes",
+    "sous_titres": [
+      "solide soumis à deux forces opposées",
+      "solide soumis à trois forces concourantes"
+    ],
+    "volume_horaire": 4,
+    "semaine": 5,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L2 Équilibre d'un corps soumis à des forces concourantes : solide posé sur un plan incliné et retenu par une corde, réaction du plan incliné",
+    "sous_titres": [
+      "solide posé sur un plan incliné et retenu par une corde, réaction du plan incliné"
+    ],
+    "volume_horaire": 2,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation ; Remédiation",
+    "sous_titres": [
+      "L2 Équilibre d'un corps soumis à des forces concourantes : solide soumis à deux forces opposées ; solide soumis à trois forces concourantes",
+      "L2 Équilibre d'un corps soumis à des forces concourantes : solide posé sur un plan incliné et retenu par une corde, réaction du plan incliné"
+    ],
+    "volume_horaire": 4,
+    "semaine": 6,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Chimie",
+    "lecon": "L3 Réaction entre des corps solides : action du carbone sur l'oxyde de cuivre",
+    "sous_titres": [
+      "action du carbone sur l'oxyde de cuivre"
+    ],
+    "volume_horaire": 2,
+    "semaine": 7,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Chimie",
+    "lecon": "L3 Réaction entre des corps solides : action de l'aluminium sur l'oxyde de fer",
+    "sous_titres": [
+      "action de l'aluminium sur l'oxyde de fer"
+    ],
+    "volume_horaire": 4,
+    "semaine": 8,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L3 Énergie mécanique : travail mécanique ; puissance mécanique",
+    "sous_titres": [
+      "travail mécanique",
+      "puissance mécanique"
+    ],
+    "volume_horaire": 4,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L3 Énergie mécanique : énergie (définition, unité) ; énergie cinétique ; énergie potentielle ; conversion et conservation de l'énergie mécanique",
+    "sous_titres": [
+      "énergie",
+      "définition",
+      "unité",
+      "énergie cinétique",
+      "énergie potentielle",
+      "conversion et conservation de l'énergie mécanique"
+    ],
+    "volume_horaire": 4,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Mécanique",
+    "lecon": "L3 Énergie mécanique : exercices d'approfondissement",
+    "sous_titres": [
+      "exercices d'approfondissement"
+    ],
+    "volume_horaire": 4,
+    "semaine": 11,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Remédiation",
+    "sous_titres": [
+      "L3 Réaction entre des corps solides : action du carbone sur l'oxyde de cuivre",
+      "L3 Réaction entre des corps solides : action de l'aluminium sur l'oxyde de fer",
+      "L3 Énergie mécanique : travail mécanique ; puissance mécanique",
+      "L3 Énergie mécanique : énergie (définition, unité) ; énergie cinétique ; énergie potentielle ; conversion et conservation de l'énergie mécanique",
+      "L3 Énergie mécanique : exercices d'approfondissement"
+    ],
+    "volume_horaire": 2,
+    "semaine": 12,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Chimie",
+    "lecon": "L4 Solutions aqueuses : l'eau, solvant des composés ioniques ; caractérisation des ions Cu2+, Fe2+, Fe3+, CO3 2-, SO4 2-, Cl-",
+    "sous_titres": [
+      "l'eau, solvant des composés ioniques",
+      "caractérisation des ions Cu2+, Fe2+, Fe3+, CO3 2-, SO4 2-, Cl-"
+    ],
+    "volume_horaire": 2,
+    "semaine": 12,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Électricité",
+    "lecon": "L4 Conducteurs ohmiques : résistance ; association en série",
+    "sous_titres": [
+      "résistance",
+      "association en série"
+    ],
+    "volume_horaire": 4,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Électricité",
+    "lecon": "L4 Conducteurs ohmiques : association en dérivation ; utilisation des conducteurs ohmiques",
+    "sous_titres": [
+      "association en dérivation",
+      "utilisation des conducteurs ohmiques"
+    ],
+    "volume_horaire": 4,
+    "semaine": 14,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Électricité",
+    "lecon": "L5 Puissance et énergie électrique : puissance en courant continu (expression, unité) ; énergie consommée en courant continu",
+    "sous_titres": [
+      "puissance en courant continu",
+      "expression",
+      "unité",
+      "énergie consommée en courant continu"
+    ],
+    "volume_horaire": 4,
+    "semaine": 15,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Électricité",
+    "lecon": "L5 Puissance et énergie électrique : énergie consommée par un appareil électroménager en alternatif, E = Pt ; compteur électrique",
+    "sous_titres": [
+      "énergie consommée par un appareil électroménager en alternatif, E = Pt",
+      "compteur électrique"
+    ],
+    "volume_horaire": 4,
+    "semaine": 16,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Chimie",
+    "lecon": "L5 Solutions acides et basiques : solution acide, pH ; solution basique ; pH de quelques solutions diluées",
+    "sous_titres": [
+      "solution acide, pH",
+      "solution basique",
+      "pH de quelques solutions diluées"
+    ],
+    "volume_horaire": 4,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation ; Remédiation",
+    "sous_titres": [
+      "L4 Solutions aqueuses : l'eau, solvant des composés ioniques ; caractérisation des ions Cu2+, Fe2+, Fe3+, CO3 2-, SO4 2-, Cl-",
+      "L4 Conducteurs ohmiques : résistance ; association en série",
+      "L4 Conducteurs ohmiques : association en dérivation ; utilisation des conducteurs ohmiques",
+      "L5 Puissance et énergie électrique : puissance en courant continu (expression, unité) ; énergie consommée en courant continu",
+      "L5 Puissance et énergie électrique : énergie consommée par un appareil électroménager en alternatif, E = Pt ; compteur électrique",
+      "L5 Solutions acides et basiques : solution acide, pH ; solution basique ; pH de quelques solutions diluées"
+    ],
+    "volume_horaire": 4,
+    "semaine": 18,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Optique",
+    "lecon": "L6 Les lentilles : lentilles minces, types, représentation, axe et centre optique, foyers, distance focale, vergence",
+    "sous_titres": [
+      "lentilles minces, types, représentation, axe et centre optique, foyers, distance focale, vergence"
+    ],
+    "volume_horaire": 2,
+    "semaine": 19,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Optique",
+    "lecon": "L6 Les lentilles : image réelle d'une lentille convergente, construction avec deux rayons particuliers",
+    "sous_titres": [
+      "image réelle d'une lentille convergente, construction avec deux rayons particuliers"
+    ],
+    "volume_horaire": 2,
+    "semaine": 19,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Optique",
+    "lecon": "L6 Les lentilles : l'œil, accommodation, correction des défauts ; enrichissement",
+    "sous_titres": [
+      "l'œil, accommodation, correction des défauts",
+      "enrichissement"
+    ],
+    "volume_horaire": 4,
+    "semaine": 20,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation ; Remédiation",
+    "sous_titres": [
+      "L6 Les lentilles : lentilles minces, types, représentation, axe et centre optique, foyers, distance focale, vergence",
+      "L6 Les lentilles : image réelle d'une lentille convergente, construction avec deux rayons particuliers",
+      "L6 Les lentilles : l'œil, accommodation, correction des défauts ; enrichissement"
+    ],
+    "volume_horaire": 2,
+    "semaine": 21,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Optique",
+    "lecon": "L7 Analyse de la lumière blanche : décomposition (irisation, arc-en-ciel) ; spectre continu (visible, infrarouge, ultraviolet) ; applications UV et IR",
+    "sous_titres": [
+      "décomposition",
+      "irisation",
+      "arc-en-ciel",
+      "spectre continu",
+      "visible",
+      "infrarouge",
+      "ultraviolet",
+      "applications UV et IR"
+    ],
+    "volume_horaire": 2,
+    "semaine": 21,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Optique",
+    "lecon": "L7 Analyse de la lumière blanche : énergie lumineuse ; dangers",
+    "sous_titres": [
+      "énergie lumineuse",
+      "dangers"
+    ],
+    "volume_horaire": 4,
+    "semaine": 22,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Formes d'énergie et leurs transformations",
+    "lecon": "L8 Formes d'énergie : différentes formes d'énergie (exemples, énergies propres, renouvelables) ; production",
+    "sous_titres": [
+      "différentes formes d'énergie",
+      "exemples",
+      "énergies propres",
+      "renouvelables",
+      "production"
+    ],
+    "volume_horaire": 4,
+    "semaine": 23,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Physique : Formes d'énergie et leurs transformations",
+    "lecon": "L8 Formes d'énergie : stockage, transformation ; enrichissement et approfondissement",
+    "sous_titres": [
+      "stockage, transformation",
+      "enrichissement et approfondissement"
+    ],
+    "volume_horaire": 4,
+    "semaine": 24,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "PCT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration et évaluation ; Remédiation",
+    "sous_titres": [
+      "L7 Analyse de la lumière blanche : décomposition (irisation, arc-en-ciel) ; spectre continu (visible, infrarouge, ultraviolet) ; applications UV et IR",
+      "L7 Analyse de la lumière blanche : énergie lumineuse ; dangers",
+      "L8 Formes d'énergie : différentes formes d'énergie (exemples, énergies propres, renouvelables) ; production",
+      "L8 Formes d'énergie : stockage, transformation ; enrichissement et approfondissement"
+    ],
+    "volume_horaire": 4,
+    "semaine": 25,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L1 Organisation d'une sortie de terrain",
+    "sous_titres": [
+      "Organisation d'une sortie de terrain"
+    ],
+    "volume_horaire": 1,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L2 Connaissance du milieu",
+    "sous_titres": [
+      "Connaissance du milieu"
+    ],
+    "volume_horaire": 3,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L3 Diversité des modes de déplacement chez les animaux",
+    "sous_titres": [
+      "Diversité des modes de déplacement chez les animaux"
+    ],
+    "volume_horaire": 4,
+    "semaine": 3,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CB et remédiation éventuelle",
+    "sous_titres": [
+      "L1 Organisation d'une sortie de terrain",
+      "L2 Connaissance du milieu",
+      "L3 Diversité des modes de déplacement chez les animaux"
+    ],
+    "volume_horaire": 3,
+    "semaine": 5,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L4 Hygiène",
+    "sous_titres": [
+      "Hygiène"
+    ],
+    "volume_horaire": 4,
+    "semaine": 7,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L5 La vaccination",
+    "sous_titres": [
+      "La vaccination"
+    ],
+    "volume_horaire": 3,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L6 Méfaits de l'usage des drogues",
+    "sous_titres": [
+      "Méfaits de l'usage des drogues"
+    ],
+    "volume_horaire": 3,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L7 Infections sexuellement transmissibles : IST / VIH-SIDA",
+    "sous_titres": [
+      "IST",
+      "VIH-SIDA"
+    ],
+    "volume_horaire": 3,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L8 Paludisme",
+    "sous_titres": [
+      "Paludisme"
+    ],
+    "volume_horaire": 3,
+    "semaine": 16,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CB et remédiation éventuelle",
+    "sous_titres": [
+      "L4 Hygiène",
+      "L5 La vaccination",
+      "L6 Méfaits de l'usage des drogues",
+      "L7 Infections sexuellement transmissibles : IST / VIH-SIDA",
+      "L8 Paludisme"
+    ],
+    "volume_horaire": 3,
+    "semaine": 17,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Nutrition et alimentation des êtres vivants",
+    "lecon": "L9 Diversité et nécessité de l'alimentation chez les animaux",
+    "sous_titres": [
+      "Diversité et nécessité de l'alimentation chez les animaux"
+    ],
+    "volume_horaire": 3,
+    "semaine": 18,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Nutrition et alimentation des êtres vivants",
+    "lecon": "L10 Application à l'élevage des animaux",
+    "sous_titres": [
+      "Application à l'élevage des animaux"
+    ],
+    "volume_horaire": 3,
+    "semaine": 20,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CB et remédiation éventuelle",
+    "sous_titres": [
+      "L9 Diversité et nécessité de l'alimentation chez les animaux",
+      "L10 Application à l'élevage des animaux"
+    ],
+    "volume_horaire": 2,
+    "semaine": 20,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Reproduction des êtres vivants",
+    "lecon": "L11 Oviparité chez la poule",
+    "sous_titres": [
+      "Oviparité chez la poule"
+    ],
+    "volume_horaire": 3,
+    "semaine": 21,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Reproduction des êtres vivants",
+    "lecon": "L12 Viviparité chez l'homme",
+    "sous_titres": [
+      "Viviparité chez l'homme"
+    ],
+    "volume_horaire": 4,
+    "semaine": 22,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CB et remédiation éventuelle",
+    "sous_titres": [
+      "L11 Oviparité chez la poule",
+      "L12 Viviparité chez l'homme"
+    ],
+    "volume_horaire": 2,
+    "semaine": 24,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Semaine d'intégration de la Compétence Terminale (CTI)",
+    "sous_titres": [
+      "L1 Organisation d'une sortie de terrain",
+      "L2 Connaissance du milieu",
+      "L3 Diversité des modes de déplacement chez les animaux",
+      "L4 Hygiène",
+      "L5 La vaccination",
+      "L6 Méfaits de l'usage des drogues",
+      "L7 Infections sexuellement transmissibles : IST / VIH-SIDA",
+      "L8 Paludisme",
+      "L9 Diversité et nécessité de l'alimentation chez les animaux",
+      "L10 Application à l'élevage des animaux",
+      "L11 Oviparité chez la poule",
+      "L12 Viviparité chez l'homme"
+    ],
+    "volume_horaire": 3,
+    "semaine": 25,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L1 La pollution de l'environnement : les polluants solides",
+    "sous_titres": [
+      "les polluants solides"
+    ],
+    "volume_horaire": 3,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L2 La chaîne alimentaire",
+    "sous_titres": [
+      "La chaîne alimentaire"
+    ],
+    "volume_horaire": 3,
+    "semaine": 3,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L3 L'élevage des animaux",
+    "sous_titres": [
+      "L'élevage des animaux"
+    ],
+    "volume_horaire": 2,
+    "semaine": 5,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CB et remédiation éventuelle",
+    "sous_titres": [
+      "L1 La pollution de l'environnement : les polluants solides",
+      "L2 La chaîne alimentaire",
+      "L3 L'élevage des animaux"
+    ],
+    "volume_horaire": 2,
+    "semaine": 7,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L4 Alimentation équilibrée",
+    "sous_titres": [
+      "Alimentation équilibrée"
+    ],
+    "volume_horaire": 3,
+    "semaine": 8,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L5 Une maladie parasitaire : l'ascaridiose",
+    "sous_titres": [
+      "l'ascaridiose"
+    ],
+    "volume_horaire": 2,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L6 Infections sexuellement transmissibles : IST / VIH-SIDA",
+    "sous_titres": [
+      "IST",
+      "VIH-SIDA"
+    ],
+    "volume_horaire": 2,
+    "semaine": 11,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation de la CB et remédiation éventuelle",
+    "sous_titres": [
+      "L4 Alimentation équilibrée",
+      "L5 Une maladie parasitaire : l'ascaridiose",
+      "L6 Infections sexuellement transmissibles : IST / VIH-SIDA"
+    ],
+    "volume_horaire": 2,
+    "semaine": 11,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Nutrition et alimentation des êtres vivants",
+    "lecon": "L7 L'absorption d'eau et de sels minéraux par les plantes vertes",
+    "sous_titres": [
+      "L'absorption d'eau et de sels minéraux par les plantes vertes"
+    ],
+    "volume_horaire": 3,
+    "semaine": 12,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Nutrition et alimentation des êtres vivants",
+    "lecon": "L8 La photosynthèse",
+    "sous_titres": [
+      "La photosynthèse"
+    ],
+    "volume_horaire": 4,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Évaluation de la CB et remédiation éventuelle",
+    "sous_titres": [
+      "L7 L'absorption d'eau et de sels minéraux par les plantes vertes",
+      "L8 La photosynthèse"
+    ],
+    "volume_horaire": 2,
+    "semaine": 14,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Reproduction des êtres vivants",
+    "lecon": "L9 Reproduction sexuée chez les animaux et les végétaux",
+    "sous_titres": [
+      "Reproduction sexuée chez les animaux et les végétaux"
+    ],
+    "volume_horaire": 4,
+    "semaine": 15,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Reproduction des êtres vivants",
+    "lecon": "L10 Les grossesses précoces et les moyens de prévention",
+    "sous_titres": [
+      "Les grossesses précoces et les moyens de prévention"
+    ],
+    "volume_horaire": 2,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Reproduction des êtres vivants",
+    "lecon": "L11 Reproduction asexuée chez les animaux et les végétaux",
+    "sous_titres": [
+      "Reproduction asexuée chez les animaux et les végétaux"
+    ],
+    "volume_horaire": 3,
+    "semaine": 18,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CB et remédiation éventuelle",
+    "sous_titres": [
+      "L9 Reproduction sexuée chez les animaux et les végétaux",
+      "L10 Les grossesses précoces et les moyens de prévention",
+      "L11 Reproduction asexuée chez les animaux et les végétaux"
+    ],
+    "volume_horaire": 2,
+    "semaine": 20,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "La géodynamique et géologie du Togo",
+    "lecon": "L12 Le sol et ses caractéristiques",
+    "sous_titres": [
+      "Le sol et ses caractéristiques"
+    ],
+    "volume_horaire": 2,
+    "semaine": 21,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "La géodynamique et géologie du Togo",
+    "lecon": "L13 La dégradation des sols",
+    "sous_titres": [
+      "La dégradation des sols"
+    ],
+    "volume_horaire": 2,
+    "semaine": 22,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "La géodynamique et géologie du Togo",
+    "lecon": "L14 Les sols en agriculture",
+    "sous_titres": [
+      "Les sols en agriculture"
+    ],
+    "volume_horaire": 2,
+    "semaine": 23,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CB3 et remédiation éventuelle",
+    "sous_titres": [
+      "L12 Le sol et ses caractéristiques",
+      "L13 La dégradation des sols",
+      "L14 Les sols en agriculture"
+    ],
+    "volume_horaire": 2,
+    "semaine": 24,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "5e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Semaine d'intégration de la Compétence Terminale (CTI)",
+    "sous_titres": [
+      "L1 La pollution de l'environnement : les polluants solides",
+      "L2 La chaîne alimentaire",
+      "L3 L'élevage des animaux",
+      "L4 Alimentation équilibrée",
+      "L5 Une maladie parasitaire : l'ascaridiose",
+      "L6 Infections sexuellement transmissibles : IST / VIH-SIDA",
+      "L7 L'absorption d'eau et de sels minéraux par les plantes vertes",
+      "L8 La photosynthèse",
+      "L9 Reproduction sexuée chez les animaux et les végétaux",
+      "L10 Les grossesses précoces et les moyens de prévention",
+      "L11 Reproduction asexuée chez les animaux et les végétaux",
+      "L12 Le sol et ses caractéristiques",
+      "L13 La dégradation des sols",
+      "L14 Les sols en agriculture"
+    ],
+    "volume_horaire": 3,
+    "semaine": 25,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L1 Pollution de l'environnement : polluants chimiques",
+    "sous_titres": [
+      "polluants chimiques"
+    ],
+    "volume_horaire": 3,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L2 Les ressources naturelles et leur gestion durable",
+    "sous_titres": [
+      "Les ressources naturelles et leur gestion durable"
+    ],
+    "volume_horaire": 3,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CB et remédiation éventuelle",
+    "sous_titres": [
+      "L1 Pollution de l'environnement : polluants chimiques",
+      "L2 Les ressources naturelles et leur gestion durable"
+    ],
+    "volume_horaire": 2,
+    "semaine": 3,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L3 La tuberculose",
+    "sous_titres": [
+      "La tuberculose"
+    ],
+    "volume_horaire": 3,
+    "semaine": 4,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L4 La Covid-19",
+    "sous_titres": [
+      "La Covid-19"
+    ],
+    "volume_horaire": 3,
+    "semaine": 5,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L5 Les IST / VIH-SIDA",
+    "sous_titres": [
+      "Les IST",
+      "VIH-SIDA"
+    ],
+    "volume_horaire": 3,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L6 Le paludisme",
+    "sous_titres": [
+      "Le paludisme"
+    ],
+    "volume_horaire": 3,
+    "semaine": 7,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CB et remédiation éventuelle",
+    "sous_titres": [
+      "L3 La tuberculose",
+      "L4 La Covid-19",
+      "L5 Les IST / VIH-SIDA",
+      "L6 Le paludisme"
+    ],
+    "volume_horaire": 2,
+    "semaine": 8,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "Nutrition et alimentation des êtres vivants",
+    "lecon": "L7 Différents aliments de l'Homme et des animaux",
+    "sous_titres": [
+      "Différents aliments de l'Homme et des animaux"
+    ],
+    "volume_horaire": 3,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "Nutrition et alimentation des êtres vivants",
+    "lecon": "L8 Composition chimique des différents aliments",
+    "sous_titres": [
+      "Composition chimique des différents aliments"
+    ],
+    "volume_horaire": 3,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CB et remédiation éventuelle",
+    "sous_titres": [
+      "L7 Différents aliments de l'Homme et des animaux",
+      "L8 Composition chimique des différents aliments"
+    ],
+    "volume_horaire": 2,
+    "semaine": 11,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "Reproduction des êtres vivants et hérédité",
+    "lecon": "L9 Reproduction humaine : organes génitaux de l'homme et de la femme",
+    "sous_titres": [
+      "organes génitaux de l'homme et de la femme"
+    ],
+    "volume_horaire": 3,
+    "semaine": 12,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "Reproduction des êtres vivants et hérédité",
+    "lecon": "L10 Grossesses précoces et leurs conséquences",
+    "sous_titres": [
+      "Grossesses précoces et leurs conséquences"
+    ],
+    "volume_horaire": 3,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CB ; semaine d'intégration de la CTI",
+    "sous_titres": [
+      "L1 Pollution de l'environnement : polluants chimiques",
+      "L2 Les ressources naturelles et leur gestion durable",
+      "L3 La tuberculose",
+      "L4 La Covid-19",
+      "L5 Les IST / VIH-SIDA",
+      "L6 Le paludisme",
+      "L7 Différents aliments de l'Homme et des animaux",
+      "L8 Composition chimique des différents aliments",
+      "L9 Reproduction humaine : organes génitaux de l'homme et de la femme",
+      "L10 Grossesses précoces et leurs conséquences"
+    ],
+    "volume_horaire": 3,
+    "semaine": 14,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "La géodynamique et géologie du Togo — Géodynamique externe",
+    "lecon": "L11 Les différents types de roches",
+    "sous_titres": [
+      "Les différents types de roches"
+    ],
+    "volume_horaire": 3,
+    "semaine": 15,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "La géodynamique et géologie du Togo — Géodynamique externe",
+    "lecon": "L12 Les phénomènes géodynamiques externes",
+    "sous_titres": [
+      "Les phénomènes géodynamiques externes"
+    ],
+    "volume_horaire": 3,
+    "semaine": 16,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "La géodynamique et géologie du Togo — Géodynamique externe",
+    "lecon": "L13 Genèse des roches sédimentaires",
+    "sous_titres": [
+      "Genèse des roches sédimentaires"
+    ],
+    "volume_horaire": 3,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "La géodynamique et géologie du Togo — Géodynamique interne",
+    "lecon": "L14 Le volcanisme",
+    "sous_titres": [
+      "Le volcanisme"
+    ],
+    "volume_horaire": 3,
+    "semaine": 18,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "La géodynamique et géologie du Togo — Géodynamique interne",
+    "lecon": "L15 Genèse des roches magmatiques",
+    "sous_titres": [
+      "Genèse des roches magmatiques"
+    ],
+    "volume_horaire": 3,
+    "semaine": 19,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "La géodynamique et géologie du Togo — Géodynamique interne",
+    "lecon": "L16 Genèse des roches métamorphiques",
+    "sous_titres": [
+      "Genèse des roches métamorphiques"
+    ],
+    "volume_horaire": 3,
+    "semaine": 20,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "La géodynamique et géologie du Togo — Géodynamique interne",
+    "lecon": "L17 Synthèse sur l'étude des roches : cycle géochimique ; intérêt économique des roches",
+    "sous_titres": [
+      "cycle géochimique",
+      "intérêt économique des roches"
+    ],
+    "volume_horaire": 3,
+    "semaine": 21,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "La géodynamique et géologie du Togo — Tectonique des plaques",
+    "lecon": "L18 Structure du globe terrestre",
+    "sous_titres": [
+      "Structure du globe terrestre"
+    ],
+    "volume_horaire": 3,
+    "semaine": 22,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "La géodynamique et géologie du Togo — Tectonique des plaques",
+    "lecon": "L19 Mouvement des plaques tectoniques",
+    "sous_titres": [
+      "Mouvement des plaques tectoniques"
+    ],
+    "volume_horaire": 3,
+    "semaine": 23,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "4e",
+    "theme": "La géodynamique et géologie du Togo — Tectonique des plaques",
+    "lecon": "L20 Les séismes",
+    "sous_titres": [
+      "Les séismes"
+    ],
+    "volume_horaire": 3,
+    "semaine": 24,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Géodynamique et géologie du Togo",
+    "lecon": "L1 Les formations géologiques du Togo",
+    "sous_titres": [
+      "Les formations géologiques du Togo"
+    ],
+    "volume_horaire": 4,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Géodynamique et géologie du Togo",
+    "lecon": "L2 Les intérêts économiques des formations géologiques du Togo",
+    "sous_titres": [
+      "Les intérêts économiques des formations géologiques du Togo"
+    ],
+    "volume_horaire": 4,
+    "semaine": 2,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CT et remédiation éventuelle",
+    "sous_titres": [
+      "L1 Les formations géologiques du Togo",
+      "L2 Les intérêts économiques des formations géologiques du Togo"
+    ],
+    "volume_horaire": 4,
+    "semaine": 3,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L3 La pollution de l'environnement : synthèse sur l'eau",
+    "sous_titres": [
+      "synthèse sur l'eau"
+    ],
+    "volume_horaire": 4,
+    "semaine": 4,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L4 La commande nerveuse du mouvement",
+    "sous_titres": [
+      "La commande nerveuse du mouvement"
+    ],
+    "volume_horaire": 4,
+    "semaine": 5,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L5 L'œil et la vision",
+    "sous_titres": [
+      "L'œil et la vision"
+    ],
+    "volume_horaire": 4,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Les êtres vivants et leur environnement",
+    "lecon": "L6 La peau",
+    "sous_titres": [
+      "La peau"
+    ],
+    "volume_horaire": 4,
+    "semaine": 7,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CT et remédiation éventuelle",
+    "sous_titres": [
+      "L3 La pollution de l'environnement : synthèse sur l'eau",
+      "L4 La commande nerveuse du mouvement",
+      "L5 L'œil et la vision",
+      "L6 La peau"
+    ],
+    "volume_horaire": 4,
+    "semaine": 8,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L7 Les micro-organismes pathogènes et non pathogènes (utiles)",
+    "sous_titres": [
+      "Les micro-organismes pathogènes et non pathogènes (utiles)"
+    ],
+    "volume_horaire": 4,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L8 Le paludisme",
+    "sous_titres": [
+      "Le paludisme"
+    ],
+    "volume_horaire": 4,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "L'Homme et sa santé",
+    "lecon": "L9 L'immunité",
+    "sous_titres": [
+      "L'immunité"
+    ],
+    "volume_horaire": 4,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CT et remédiation éventuelle",
+    "sous_titres": [
+      "L7 Les micro-organismes pathogènes et non pathogènes (utiles)",
+      "L8 Le paludisme",
+      "L9 L'immunité"
+    ],
+    "volume_horaire": 4,
+    "semaine": 11,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Nutrition et alimentation des êtres vivants",
+    "lecon": "L10 La digestion",
+    "sous_titres": [
+      "La digestion"
+    ],
+    "volume_horaire": 4,
+    "semaine": 12,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Nutrition et alimentation des êtres vivants",
+    "lecon": "L11 La circulation sanguine",
+    "sous_titres": [
+      "La circulation sanguine"
+    ],
+    "volume_horaire": 4,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Nutrition et alimentation des êtres vivants",
+    "lecon": "L12 La respiration",
+    "sous_titres": [
+      "La respiration"
+    ],
+    "volume_horaire": 4,
+    "semaine": 14,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Nutrition et alimentation des êtres vivants",
+    "lecon": "L13 L'excrétion",
+    "sous_titres": [
+      "L'excrétion"
+    ],
+    "volume_horaire": 4,
+    "semaine": 15,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CT et remédiation éventuelle",
+    "sous_titres": [
+      "L10 La digestion",
+      "L11 La circulation sanguine",
+      "L12 La respiration",
+      "L13 L'excrétion"
+    ],
+    "volume_horaire": 4,
+    "semaine": 16,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Reproduction des êtres vivants et hérédité",
+    "lecon": "L14 La transmission de la vie chez l'Homme : les organes génitaux",
+    "sous_titres": [
+      "les organes génitaux"
+    ],
+    "volume_horaire": 4,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Reproduction des êtres vivants et hérédité",
+    "lecon": "L15 La transmission de la vie : cycles sexuels, fécondation et grossesse",
+    "sous_titres": [
+      "cycles sexuels, fécondation et grossesse"
+    ],
+    "volume_horaire": 4,
+    "semaine": 18,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Reproduction des êtres vivants et hérédité",
+    "lecon": "L16 La transmission de la vie : l'accouchement et l'allaitement",
+    "sous_titres": [
+      "l'accouchement et l'allaitement"
+    ],
+    "volume_horaire": 4,
+    "semaine": 19,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Reproduction des êtres vivants et hérédité",
+    "lecon": "L17 La transmission de la vie : la maîtrise de la reproduction",
+    "sous_titres": [
+      "la maîtrise de la reproduction"
+    ],
+    "volume_horaire": 4,
+    "semaine": 20,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CT et remédiation éventuelle",
+    "sous_titres": [
+      "L14 La transmission de la vie chez l'Homme : les organes génitaux",
+      "L15 La transmission de la vie : cycles sexuels, fécondation et grossesse",
+      "L16 La transmission de la vie : l'accouchement et l'allaitement",
+      "L17 La transmission de la vie : la maîtrise de la reproduction"
+    ],
+    "volume_horaire": 4,
+    "semaine": 21,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Reproduction des êtres vivants et hérédité",
+    "lecon": "L18 Les ressemblances et les différences entre les êtres vivants",
+    "sous_titres": [
+      "Les ressemblances et les différences entre les êtres vivants"
+    ],
+    "volume_horaire": 4,
+    "semaine": 22,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Reproduction des êtres vivants et hérédité",
+    "lecon": "L19 Le support des caractères héréditaires : l'ADN",
+    "sous_titres": [
+      "l'ADN"
+    ],
+    "volume_horaire": 4,
+    "semaine": 23,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Reproduction des êtres vivants et hérédité",
+    "lecon": "L20 Les maladies héréditaires",
+    "sous_titres": [
+      "Les maladies héréditaires"
+    ],
+    "volume_horaire": 4,
+    "semaine": 24,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "SVT",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration, évaluation de la CT et remédiation éventuelle",
+    "sous_titres": [
+      "L18 Les ressemblances et les différences entre les êtres vivants",
+      "L19 Le support des caractères héréditaires : l'ADN",
+      "L20 Les maladies héréditaires"
+    ],
+    "volume_horaire": 4,
+    "semaine": 25,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Réalisation d'un objet technique",
+    "lecon": "L1 Objet naturel et objet technique : définitions, exemples ; fonction d'usage (besoin, familles d'objets)",
+    "sous_titres": [
+      "définitions, exemples",
+      "fonction d'usage",
+      "besoin",
+      "familles d'objets"
+    ],
+    "volume_horaire": 2,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Réalisation d'un objet technique",
+    "lecon": "L2 Réalisation du prototype d'une éprouvette graduée ; notion de prototype",
+    "sous_titres": [
+      "Réalisation du prototype d'une éprouvette graduée",
+      "notion de prototype"
+    ],
+    "volume_horaire": 3,
+    "semaine": 3,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Réalisation d'un objet technique",
+    "lecon": "L3 L'éprouvette graduée, objet technique : caractères techniques, utilisation",
+    "sous_titres": [
+      "caractères techniques, utilisation"
+    ],
+    "volume_horaire": 1,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L1 Objet naturel et objet technique : définitions, exemples ; fonction d'usage (besoin, familles d'objets)",
+      "L2 Réalisation du prototype d'une éprouvette graduée ; notion de prototype",
+      "L3 L'éprouvette graduée, objet technique : caractères techniques, utilisation"
+    ],
+    "volume_horaire": 1,
+    "semaine": 7,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Les matériaux",
+    "lecon": "L1 Les principales familles de matériaux (les 5 familles)",
+    "sous_titres": [
+      "Les principales familles de matériaux (les 5 familles)"
+    ],
+    "volume_horaire": 1,
+    "semaine": 8,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Les matériaux",
+    "lecon": "L2 Caractéristiques et propriétés des matériaux",
+    "sous_titres": [
+      "Caractéristiques et propriétés des matériaux"
+    ],
+    "volume_horaire": 2,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Les matériaux",
+    "lecon": "L3 Recyclage des matériaux et impact environnemental : impact, valorisation, recyclage, avantages, recyclage au Togo",
+    "sous_titres": [
+      "impact, valorisation, recyclage, avantages, recyclage au Togo"
+    ],
+    "volume_horaire": 3,
+    "semaine": 11,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L1 Les principales familles de matériaux (les 5 familles)",
+      "L2 Caractéristiques et propriétés des matériaux",
+      "L3 Recyclage des matériaux et impact environnemental : impact, valorisation, recyclage, avantages, recyclage au Togo"
+    ],
+    "volume_horaire": 1,
+    "semaine": 14,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Évolution d'un objet technique",
+    "lecon": "L1 De la balance romaine à la balance électronique",
+    "sous_titres": [
+      "De la balance romaine à la balance électronique"
+    ],
+    "volume_horaire": 2,
+    "semaine": 15,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Évolution d'un objet technique",
+    "lecon": "L2 Quelques unités de masse dans l'histoire",
+    "sous_titres": [
+      "Quelques unités de masse dans l'histoire"
+    ],
+    "volume_horaire": 1,
+    "semaine": 17,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L1 De la balance romaine à la balance électronique",
+      "L2 Quelques unités de masse dans l'histoire"
+    ],
+    "volume_horaire": 1,
+    "semaine": 18,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Étude d'un composant électrique simple",
+    "lecon": "Étude d'un interrupteur simple du commerce : démontage ; vérification du fonctionnement ; objet technologique",
+    "sous_titres": [
+      "démontage",
+      "vérification du fonctionnement",
+      "objet technologique"
+    ],
+    "volume_horaire": 3,
+    "semaine": 19,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "Étude d'un interrupteur simple du commerce : démontage ; vérification du fonctionnement ; objet technologique"
+    ],
+    "volume_horaire": 1,
+    "semaine": 22,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Outil informatique",
+    "lecon": "L'ordinateur et ses périphériques : à quoi sert-il, périphériques ; unité centrale, ordinateur portable",
+    "sous_titres": [
+      "à quoi sert-il, périphériques",
+      "unité centrale, ordinateur portable"
+    ],
+    "volume_horaire": 2,
+    "semaine": 23,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "6e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L'ordinateur et ses périphériques : à quoi sert-il, périphériques ; unité centrale, ordinateur portable"
+    ],
+    "volume_horaire": 1,
+    "semaine": 25,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "5e",
+    "theme": "Réalisation d'un objet technique",
+    "lecon": "L1 Un filtre artisanal pour purifier l'eau : eau potable ; techniques pour obtenir une eau potable ; technique pour obtenir une eau pure ; fabrication d'un filtre artisanal ; visite d'une usine de traitement de l'eau",
+    "sous_titres": [
+      "eau potable",
+      "techniques pour obtenir une eau potable",
+      "technique pour obtenir une eau pure",
+      "fabrication d'un filtre artisanal",
+      "visite d'une usine de traitement de l'eau"
+    ],
+    "volume_horaire": 5,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "5e",
+    "theme": "Les matériaux",
+    "lecon": "L2 La protection des matériaux : métaux ferreux (peinture, vernis, protection électrochimique) ; bois (peinture, vernis, produits chimiques) ; matières plastiques contre les rayons solaires (stabilisants, métallisation, enfouissement)",
+    "sous_titres": [
+      "métaux ferreux",
+      "peinture",
+      "vernis",
+      "protection électrochimique",
+      "bois",
+      "peinture",
+      "vernis",
+      "produits chimiques",
+      "matières plastiques contre les rayons solaires",
+      "stabilisants",
+      "métallisation",
+      "enfouissement"
+    ],
+    "volume_horaire": 3,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "5e",
+    "theme": "Les matériaux",
+    "lecon": "L3 La dilatation thermique : des solides (bilame, joint de dilatation, toitures métalliques, dilatation linéaire et volumique, facteurs) ; des liquides (vase d'expansion, thermomètre à alcool, facteurs) ; des gaz (dangers en vase clos, bombe aérosol, facteurs)",
+    "sous_titres": [
+      "des solides",
+      "bilame",
+      "joint de dilatation",
+      "toitures métalliques",
+      "dilatation linéaire et volumique",
+      "facteurs",
+      "des liquides",
+      "vase d'expansion",
+      "thermomètre à alcool",
+      "facteurs",
+      "des gaz",
+      "dangers en vase clos",
+      "bombe aérosol",
+      "facteurs"
+    ],
+    "volume_horaire": 4,
+    "semaine": 9,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "5e",
+    "theme": "Évolution d'un objet technique",
+    "lecon": "L4 Du cadran solaire à la montre connectée : cadran solaire, sablier, bougie, horloge à balancier, à ressort spiral, montre à aiguille, à quartz, numérique, connectée, horloge atomique ; fonctions d'usage (se repérer dans le temps, délimiter, mesurer une durée)",
+    "sous_titres": [
+      "cadran solaire, sablier, bougie, horloge à balancier, à ressort spiral, montre à aiguille, à quartz, numérique, connectée, horloge atomique",
+      "fonctions d'usage",
+      "se repérer dans le temps",
+      "délimiter",
+      "mesurer une durée"
+    ],
+    "volume_horaire": 3,
+    "semaine": 13,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "5e",
+    "theme": "Le dessin technique",
+    "lecon": "L5 Introduction au dessin technique : langage de communication (conventions, outils, logiciels DAO) ; origines (fabriquer, vérifier, reproduire à grande échelle) ; outils spécifiques (planche, format standard, crayon, règle, compas, équerres)",
+    "sous_titres": [
+      "langage de communication",
+      "conventions",
+      "outils",
+      "logiciels DAO",
+      "origines",
+      "fabriquer",
+      "vérifier",
+      "reproduire à grande échelle",
+      "outils spécifiques",
+      "planche",
+      "format standard",
+      "crayon",
+      "règle",
+      "compas",
+      "équerres"
+    ],
+    "volume_horaire": 3,
+    "semaine": 16,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "5e",
+    "theme": "Étude d'un objet technique",
+    "lecon": "L6 Étude d'un interrupteur va-et-vient du commerce : démontage, analogie et différences avec l'interrupteur simple, symbole ; câblage va-et-vient (utilité, schéma une lampe et deux interrupteurs, fonctionnement) ; remontage et vérification",
+    "sous_titres": [
+      "démontage, analogie et différences avec l'interrupteur simple, symbole",
+      "câblage va-et-vient",
+      "utilité",
+      "schéma une lampe et deux interrupteurs",
+      "fonctionnement",
+      "remontage et vérification"
+    ],
+    "volume_horaire": 3,
+    "semaine": 19,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "5e",
+    "theme": "Outil informatique",
+    "lecon": "L7 Les logiciels : logiciel système et application ; logiciels d'application (traitement de texte, tableurs-grapheurs, moteurs de recherche, jeux, multimédia, CAO, FAO) ; logiciels libres et propriétaires ; gratuits et payants",
+    "sous_titres": [
+      "logiciel système et application",
+      "logiciels d'application",
+      "traitement de texte",
+      "tableurs-grapheurs",
+      "moteurs de recherche",
+      "jeux",
+      "multimédia",
+      "CAO",
+      "FAO",
+      "logiciels libres et propriétaires",
+      "gratuits et payants"
+    ],
+    "volume_horaire": 4,
+    "semaine": 22,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Évolution d'un objet technique",
+    "lecon": "L1 Les machines simples à travers les âges : fonction d'usage ; évolution dans le temps",
+    "sous_titres": [
+      "fonction d'usage",
+      "évolution dans le temps"
+    ],
+    "volume_horaire": 2,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Évolution d'un objet technique",
+    "lecon": "L2 De la houe au motoculteur, les outils du travail de la terre à travers les âges : les outils ; fonction d'usage et famille d'outils",
+    "sous_titres": [
+      "les outils",
+      "fonction d'usage et famille d'outils"
+    ],
+    "volume_horaire": 2,
+    "semaine": 3,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "L1 Les machines simples à travers les âges : fonction d'usage ; évolution dans le temps",
+      "L2 De la houe au motoculteur, les outils du travail de la terre à travers les âges : les outils ; fonction d'usage et famille d'outils"
+    ],
+    "volume_horaire": 1,
+    "semaine": 5,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Le dessin technique",
+    "lecon": "Les principales représentations ; traits utilisés ; échelle ; cartouche ; formats de feuilles normalisés ; orientation de la feuille",
+    "sous_titres": [
+      "Les principales représentations",
+      "traits utilisés",
+      "échelle",
+      "cartouche",
+      "formats de feuilles normalisés",
+      "orientation de la feuille"
+    ],
+    "volume_horaire": 3,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "Les principales représentations ; traits utilisés ; échelle ; cartouche ; formats de feuilles normalisés ; orientation de la feuille"
+    ],
+    "volume_horaire": 1,
+    "semaine": 9,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Installation électrique domestique",
+    "lecon": "Schématisation d'une installation électrique domestique simple : circuits domestiques ; choix liés à l'installation ; schématisation",
+    "sous_titres": [
+      "circuits domestiques",
+      "choix liés à l'installation",
+      "schématisation"
+    ],
+    "volume_horaire": 3,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "Schématisation d'une installation électrique domestique simple : circuits domestiques ; choix liés à l'installation ; schématisation"
+    ],
+    "volume_horaire": 1,
+    "semaine": 13,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Étude d'un objet technique",
+    "lecon": "La génératrice de bicyclette : fonctionnement ; démontage ; remontage ; objet technologique",
+    "sous_titres": [
+      "fonctionnement",
+      "démontage",
+      "remontage",
+      "objet technologique"
+    ],
+    "volume_horaire": 3,
+    "semaine": 14,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "La génératrice de bicyclette : fonctionnement ; démontage ; remontage ; objet technologique"
+    ],
+    "volume_horaire": 1,
+    "semaine": 17,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Réalisation d'un objet technique",
+    "lecon": "Un redresseur de courant : action d'une diode et d'un pont de diodes ; condensateur ; régulateur ; réalisation d'un redresseur",
+    "sous_titres": [
+      "action d'une diode et d'un pont de diodes",
+      "condensateur",
+      "régulateur",
+      "réalisation d'un redresseur"
+    ],
+    "volume_horaire": 4,
+    "semaine": 18,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "Un redresseur de courant : action d'une diode et d'un pont de diodes ; condensateur ; régulateur ; réalisation d'un redresseur"
+    ],
+    "volume_horaire": 1,
+    "semaine": 22,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "4e",
+    "theme": "Outil informatique",
+    "lecon": "La communication sur Internet : Internet ; règles de communication sur Internet",
+    "sous_titres": [
+      "Internet",
+      "règles de communication sur Internet"
+    ],
+    "volume_horaire": 3,
+    "semaine": 23,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "Réalisation d'un objet technique",
+    "lecon": "Un détecteur utilisant un transistor : chaîne électronique ; étude du transistor ; capteurs et dipôles commandés ; réalisation et test d'un détecteur",
+    "sous_titres": [
+      "chaîne électronique",
+      "étude du transistor",
+      "capteurs et dipôles commandés",
+      "réalisation et test d'un détecteur"
+    ],
+    "volume_horaire": 4,
+    "semaine": 1,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "Un détecteur utilisant un transistor : chaîne électronique ; étude du transistor ; capteurs et dipôles commandés ; réalisation et test d'un détecteur"
+    ],
+    "volume_horaire": 1,
+    "semaine": 5,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "Le dessin technique",
+    "lecon": "Réaliser le dessin technique d'un objet et le faire reproduire : dessins et schémas pour la fabrication ; autres informations liées à la fabrication",
+    "sous_titres": [
+      "dessins et schémas pour la fabrication",
+      "autres informations liées à la fabrication"
+    ],
+    "volume_horaire": 3,
+    "semaine": 6,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "Réaliser le dessin technique d'un objet et le faire reproduire : dessins et schémas pour la fabrication ; autres informations liées à la fabrication"
+    ],
+    "volume_horaire": 1,
+    "semaine": 9,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "Étude d'un objet technique",
+    "lecon": "Le transformateur : observation, caractéristiques d'un transformateur du commerce ; utilisation ; objet technologique",
+    "sous_titres": [
+      "observation, caractéristiques d'un transformateur du commerce",
+      "utilisation",
+      "objet technologique"
+    ],
+    "volume_horaire": 2,
+    "semaine": 10,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "Installation électrique domestique",
+    "lecon": "La sécurité électrique des êtres humains et des matériels : observation de l'installation ; dangers du courant ; protection au niveau des prises ; disjoncteur différentiel",
+    "sous_titres": [
+      "observation de l'installation",
+      "dangers du courant",
+      "protection au niveau des prises",
+      "disjoncteur différentiel"
+    ],
+    "volume_horaire": 3,
+    "semaine": 12,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "Le transformateur : observation, caractéristiques d'un transformateur du commerce ; utilisation ; objet technologique",
+      "La sécurité électrique des êtres humains et des matériels : observation de l'installation ; dangers du courant ; protection au niveau des prises ; disjoncteur différentiel"
+    ],
+    "volume_horaire": 1,
+    "semaine": 15,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "Évolution d'un objet technique",
+    "lecon": "De la lampe à incandescence à la LED : ampoule d'éclairage ; modes de production de la lumière ; caractéristiques et propriétés de la lumière émise",
+    "sous_titres": [
+      "ampoule d'éclairage",
+      "modes de production de la lumière",
+      "caractéristiques et propriétés de la lumière émise"
+    ],
+    "volume_horaire": 3,
+    "semaine": 16,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "De la lampe à incandescence à la LED : ampoule d'éclairage ; modes de production de la lumière ; caractéristiques et propriétés de la lumière émise"
+    ],
+    "volume_horaire": 1,
+    "semaine": 19,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "L'objet technique et l'énergie",
+    "lecon": "Les formes d'énergie et leurs transformations dans des objets techniques ; importance de l'énergie électrique",
+    "sous_titres": [
+      "Les formes d'énergie et leurs transformations dans des objets techniques",
+      "importance de l'énergie électrique"
+    ],
+    "volume_horaire": 2,
+    "semaine": 20,
+    "type_seance": "cours"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "Intégration – Évaluation – Remédiation",
+    "lecon": "Intégration – Évaluation – Remédiation",
+    "sous_titres": [
+      "Les formes d'énergie et leurs transformations dans des objets techniques ; importance de l'énergie électrique"
+    ],
+    "volume_horaire": 1,
+    "semaine": 22,
+    "type_seance": "integration_evaluation_remediation"
+  },
+  {
+    "matiere": "Technologie",
+    "classe": "3e",
+    "theme": "Outil informatique",
+    "lecon": "L'ordinateur au service de la science : logiciels scientifiques, interfaces, capteurs ; tableur pour vérifier la loi d'Ohm ; vérification de la loi d'Ohm avec matériel d'acquisition et de traitement des données",
+    "sous_titres": [
+      "logiciels scientifiques, interfaces, capteurs",
+      "tableur pour vérifier la loi d'Ohm",
+      "vérification de la loi d'Ohm avec matériel d'acquisition et de traitement des données"
+    ],
+    "volume_horaire": 3,
+    "semaine": 23,
+    "type_seance": "cours"
+  }
+]

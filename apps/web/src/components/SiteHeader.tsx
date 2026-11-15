@@ -15,7 +15,13 @@ export function SiteHeader() {
           </span>
         </span>
       </Link>
-      <nav className="flex items-center gap-2 text-sm">
+      <nav className="flex flex-wrap items-center justify-end gap-2 text-sm">
+        <Link
+          href="/generer"
+          className="rounded-full border border-line bg-card px-4 py-2 text-ink transition hover:border-green"
+        >
+          Sujets
+        </Link>
         <Link
           href="/a-propos"
           className="rounded-full border border-line bg-card px-4 py-2 text-ink transition hover:border-green"
