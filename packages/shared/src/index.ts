@@ -5,6 +5,8 @@ export {
   NIVEAUX,
   PARCOURS,
 } from "./curriculum";
+export { CHAPITRES } from "./sommaire";
+export type { LeconCatalogue } from "./sommaire";
 export type {
   ActiviteCode,
   MatiereCode,

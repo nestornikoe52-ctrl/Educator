@@ -1,9 +1,8 @@
 import "dotenv/config";
 import { PrismaPg } from "@prisma/adapter-pg";
-import { CREATEUR, MATIERES, NIVEAUX } from "@education-togo/shared";
+import { CHAPITRES, CREATEUR, MATIERES, NIVEAUX } from "@education-togo/shared";
 import bcrypt from "bcryptjs";
 import { PrismaClient } from "../src/generated/prisma/client";
-import { CHAPITRES } from "./sommaire";
 import { EXERCICES_OUVERTS } from "./exercices";
 import { QUESTIONS_QCM } from "./qcm";
 import { QUESTIONS_TRIVIA } from "./trivia";

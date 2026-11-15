@@ -1,4 +1,4 @@
-import type { MatiereCode, NiveauCode } from "@education-togo/shared";
+import type { MatiereCode, NiveauCode } from "./curriculum";
 
 export interface LeconCatalogue {
   niveau: NiveauCode;

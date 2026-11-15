@@ -2,7 +2,13 @@ import { MATIERES, NIVEAUX } from "@education-togo/shared";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FilAriane } from "@/components/FilAriane";
-import { listerChapitres } from "@/lib/api";
+import { chapitresDe } from "@/lib/catalogue";
+
+export function generateStaticParams() {
+  return NIVEAUX.flatMap((niveau) =>
+    MATIERES.map((matiere) => ({ code: niveau.code, matiere: matiere.code })),
+  );
+}
 
 export default async function ChapitresPage({
   params,
@@ -16,7 +22,7 @@ export default async function ChapitresPage({
     notFound();
   }
 
-  const chapitres = await listerChapitres(niveau.code, matiere.code);
+  const chapitres = chapitresDe(niveau.code, matiere.code);
 
   return (
     <section>

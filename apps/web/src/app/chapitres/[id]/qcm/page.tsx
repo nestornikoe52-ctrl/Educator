@@ -1,7 +1,11 @@
 import { notFound } from "next/navigation";
 import { FilAriane } from "@/components/FilAriane";
 import { QcmJeu } from "@/components/QcmJeu";
-import { lireChapitre } from "@/lib/api";
+import { chapitreParId, chapitresDuCatalogue } from "@/lib/catalogue";
+
+export function generateStaticParams() {
+  return chapitresDuCatalogue().map((chapitre) => ({ id: chapitre.id }));
+}
 
 export default async function QcmPage({
   params,
@@ -9,7 +13,7 @@ export default async function QcmPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const chapitre = await lireChapitre(id).catch(() => null);
+  const chapitre = chapitreParId(id);
   if (!chapitre) {
     notFound();
   }

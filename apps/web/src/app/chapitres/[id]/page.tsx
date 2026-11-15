@@ -3,7 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FilAriane } from "@/components/FilAriane";
 import { Telechargement } from "@/components/Telechargement";
-import { lireChapitre } from "@/lib/api";
+import { chapitreParId, chapitresDuCatalogue } from "@/lib/catalogue";
+
+export function generateStaticParams() {
+  return chapitresDuCatalogue().map((chapitre) => ({ id: chapitre.id }));
+}
 
 export default async function ChapitrePage({
   params,
@@ -11,7 +15,7 @@ export default async function ChapitrePage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const chapitre = await lireChapitre(id).catch(() => null);
+  const chapitre = chapitreParId(id);
   if (!chapitre) {
     notFound();
   }

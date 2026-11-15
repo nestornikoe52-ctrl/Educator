@@ -3,6 +3,7 @@ dist
 apps/api/src/generated
 .data
 .next
+out
 .expo
 .turbo
 coverage

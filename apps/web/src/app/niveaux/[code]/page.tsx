@@ -9,6 +9,10 @@ const bordure: Record<MatiereCode, string> = {
   SVT: "border-svt",
 };
 
+export function generateStaticParams() {
+  return NIVEAUX.map((niveau) => ({ code: niveau.code }));
+}
+
 export default async function NiveauPage({
   params,
 }: {
