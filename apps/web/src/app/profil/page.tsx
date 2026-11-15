@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 import { lireHistorique, lireMesCopies, lireProfil } from "@/lib/api";
 import { profilLocal } from "@/lib/comptesLocaux";
 import { lireFile, synchroniserFile } from "@/lib/horsLigne";
-import { effacerJeton, lireJeton } from "@/lib/session";
+import { effacerJeton, lireJeton, urlApplication } from "@/lib/session";
 
 const ACTIVITE: Record<TypeSession, string> = {
   exercices: "Exercices",
@@ -35,7 +35,7 @@ export default function ProfilPage() {
   useEffect(() => {
     const jeton = lireJeton();
     if (!jeton) {
-      window.location.href = "/connexion";
+      window.location.href = urlApplication("/connexion/");
       return;
     }
     const local = profilLocal(jeton);

@@ -14,3 +14,8 @@ export function ecrireJeton(jeton: string) {
 export function effacerJeton() {
   localStorage.removeItem(CLE_JETON);
 }
+
+export function urlApplication(chemin: string) {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  return `${base}${chemin}`;
+}

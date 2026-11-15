@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { lireProfil } from "@/lib/api";
 import { profilLocal } from "@/lib/comptesLocaux";
-import { effacerJeton, lireJeton } from "@/lib/session";
+import { effacerJeton, lireJeton, urlApplication } from "@/lib/session";
 
 export function AuthMenu() {
   const [compte, setCompte] = useState<{ nom: string; role: RoleUtilisateur } | null>(null);
@@ -62,7 +62,7 @@ export function AuthMenu() {
         className="rounded-full px-4 py-2 text-muted transition hover:text-ink"
         onClick={() => {
           effacerJeton();
-          window.location.href = "/";
+          window.location.href = urlApplication("/");
         }}
       >
         Sortir

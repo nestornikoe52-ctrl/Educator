@@ -4,7 +4,7 @@ import { MATIERES, NIVEAUX, type MatiereCode, type NiveauCode } from "@education
 import { useState } from "react";
 import { ServeurInjoignable, connecter, inscrire } from "@/lib/api";
 import { connecterLocal, inscrireLocal } from "@/lib/comptesLocaux";
-import { ecrireJeton } from "@/lib/session";
+import { ecrireJeton, urlApplication } from "@/lib/session";
 
 export function CompteForm({ mode }: { mode: "inscription" | "connexion" }) {
   const [nom, setNom] = useState("");
@@ -49,7 +49,9 @@ export function CompteForm({ mode }: { mode: "inscription" | "connexion" }) {
             : await connecterLocal({ email, motDePasse });
       }
       ecrireJeton(reponse.jeton);
-      window.location.assign(reponse.utilisateur.role === "professeur" ? "/professeur" : "/profil");
+      window.location.assign(
+        urlApplication(reponse.utilisateur.role === "professeur" ? "/professeur/" : "/profil/"),
+      );
     } catch (error) {
       setErreur(
         error instanceof ServeurInjoignable
