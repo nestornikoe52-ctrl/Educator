@@ -7,10 +7,13 @@
     "dev": "next dev --port 3000",
     "prebuild": "pnpm --filter @education-togo/shared build",
     "build": "next build",
+    "test": "node --experimental-strip-types --test src/services/progressions.test.ts",
     "start": "next start --port 3000"
   },
   "dependencies": {
     "@education-togo/shared": "workspace:*",
+    "docx": "^9.15.4",
+    "jspdf": "^4.2.1",
     "next": "^15.5.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
